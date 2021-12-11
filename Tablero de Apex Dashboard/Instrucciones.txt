@@ -1,0 +1,20 @@
+1.- Crear objetos de la base de datos
+	SQL Workshop / SQL Scripts
+		Cargar y ejecutar el script "Tablas Ask Tom.sql"
+2.- Cargar datos de Prueba
+	SQL Workshop / Utilities / Data Workshop / Load Data
+		Seleccionar archivos de datos, uno a uno
+		Load To Existing Table
+		Seleccionar nombre de la tabla de acuerdo al archivo texto
+		Load Data
+3.- Crear cuentas de usuarios finales en APEX (para probar)
+		CORP1
+                DIVISION1
+		AREA5
+		DISTRITO14
+4.- Importar aplicacion
+
+https://es.slideshare.net/secret/hQA2WeAsSICmYN
+
+https://drive.google.com/drive/folders/1YSGvkO4U6WuUqi5RMNyO173KVRmGjbtw
+

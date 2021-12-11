@@ -1,0 +1,10 @@
+insert into mnuacsel
+select 'AREASIS','DESARROL','1','92','MENUDINA','N','N' from dual union
+select 'AREASIS','DESARROL','1','91','OPCIONES','N','N' from dual union
+select 'AREATEC','ACSEGIND','1','11','MANTCLI','N','N'  from dual union
+select 'AREATEC','DESARROL','1','21','COTIZA','N','N'   from dual union
+select 'AREATEC','DESARROL','1','11','MANTCLI','N','N'  from dual union
+select 'AREATEC','DESARROL','1','12','PRUEBA','N','N'   from dual union
+select 'AREATEC','LASELEG','1','111','MANTCLI','N','N'  from dual union
+select 'AREATEC','TASICOM','1','111','MANTCLI','N','N'  from dual union
+select 'AREATEC','TSGAYR','1','1','MANTCLI','N','N'     from dual

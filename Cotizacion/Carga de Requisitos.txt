@@ -1,0 +1,26 @@
+declare
+  cursor cur_ramos is
+     select DISTINCT codprod,codplan,revplan,codramoplan
+       from ramo_plan_prod
+      where codprod = 'AUIM';
+  cursor cur_requisitos is
+     select distinct codreq
+       from requisito 
+      where codreq like 'RV%' and usoreq='S' and codgruporeq='PDS' AND CODREQ IN ('RV02','RV14','RV17','RV29','RV30');
+begin
+ for r in cur_ramos loop
+   for e in cur_requisitos loop
+     insert into req_plan_prod
+       ( codprod,codplan,revplan,codramoplan,codreq,stsreq,tipousoreq,indoblig,usoreq,fecsts)
+     values
+       ( r.codprod, r.codplan, r.revplan,r.codramoplan,e.codreq,'VIG', 'A','N','I',sysdate);
+   end loop;
+ end loop;
+end;
+
+Aplicacion 111
+ Cotizaciones Pag 12.  Listo.
+ Datos Particulares. Pag 13. Listo
+ REgistrar Plantilla. Pagina 16. Listo
+ Actualiza Requisito. Pagina 15. Listo
+ Cotizacion. Pagina 9

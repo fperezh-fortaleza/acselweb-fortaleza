@@ -1,0 +1,14 @@
+insert into mnuacsel
+select 'ACSELWEB','ACSEGIND','1','10','AREATEC','N','N' from dual
+union
+select 'ACSELWEB','ANACOM','1','1','MANTCLI','N','N'    from dual
+union
+select 'ACSELWEB','DESARROL','1','90','AREASIS','N','N' from dual
+union
+select 'ACSELWEB','DESARROL','1','10','AREATEC','N','N' from dual
+union
+select 'ACSELWEB','LASELEG','1','11','AREATEC','N','N'  from dual
+union
+select 'ACSELWEB','TASICOM','1','11','AREATEC','N','N'  from dual
+union
+select 'ACSELWEB','TSGAYR','1','11','AREATEC','N','N'   from dual

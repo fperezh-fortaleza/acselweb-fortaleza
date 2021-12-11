@@ -1,0 +1,97 @@
+select ap.stsanexo, ap.codanexo, an.descAnexo, ap.numoper, ap.fecrecep, ap.fecinivalid, ap.fecfinvalid
+  from anexo an, anexo_pol ap
+ where an.codanexo = ap.codanexo
+  order by ap.ideanexo
+
+-- Imprimir el Anexo
+		BEGIN 
+			 IF PR_ACCESO_USUARIO.AUTORIZA_OPERACION(SUBSTR(USER,1,8),920) =  'S'  THEN 
+			 		 cSelloAgua := 'O R I G I N A L';
+			 ELSE
+					 IF pr_poliza.NROCOPIAPOL(nNumPol,'anexos',nNumOper,nIdeAnexo)=1 THEN -- primera vez que se imprime la poliza
+					    cSelloAgua := 'O R I G I N A L';
+					 ELSE
+					    cSelloAgua := 'C O P I A '; --||to_char(v_active_copy-1);
+					 END IF;
+					 COMMIT; --grabar el contador de impresión;
+			 END IF;
+			 pl_an := Get_Parameter_List('tmpAnexo');
+			 if not Id_Null(pl_an) then
+			 		Destroy_parameter_list(pl_an);
+			 end if;
+       pl_an := Create_Parameter_List('tmpAnexo'); 
+       Add_Parameter(pl_an,'DESTYPE',			TEXT_PARAMETER,'CACHE'); 
+       Add_Parameter(pl_an,'ORIENTATION',	TEXT_PARAMETER,'PORTRAIT');
+       Add_Parameter(pl_an,'P_POLIZA',		TEXT_PARAMETER,TO_CHAR(nNumPol)); 
+       Add_Parameter(pl_an,'P_IDEANEXO',	TEXT_PARAMETER,TO_CHAR(nIdeAnexo));
+       Add_Parameter(pl_an,'P_IDEOP',			TEXT_PARAMETER, TO_CHAR(nNumOper));
+       Add_Parameter(pl_an,'PARAMFORM',		TEXT_PARAMETER,'NO'); 
+       Add_Parameter(pl_an,'P_SELLOAGUA',		TEXT_PARAMETER,cSelloAgua);
+       rp2rro.rp2rro_run_product(reports,'ANEXOS',ASYNCHRONOUS,RUNTIME,filesystem,pl_an,null);
+  	END;
+
+-- Servidor para Imprimir
+PROCEDURE CALL_IMPRIMIR(cNomRep VARCHAR2, cParam VARCHAR2) IS
+  cCallRep                     VARCHAR2(500);
+  vc_user_name                 VARCHAR2(100); 
+  vc_user_password             VARCHAR2(100); 
+  vc_user_connect              VARCHAR2(100); 
+  vc_connect                   VARCHAR2(300);           
+  cServidorHTTP                VARCHAR2(100);
+  cReportFile                  VARCHAR2(100);
+  cFormato                     VARCHAR2(3);
+  cServer                      VARCHAR2(40);
+  cRuta                        VARCHAR2(200):=NULL;
+  cResource                    VARCHAR2(200);
+  --pl_id ParamList;
+BEGIN
+
+  cFormato      := 'pdf';
+  cServer       := PR.BUSCA_PARAMETRO('098');
+  cResource     := PR.BUSCA_PARAMETRO('099');
+  cServidorHTTP := PR.BUSCA_PARAMETRO('100');
+ 	cReportFile   := lower(cRuta||cNomRep)||'.rep';
+      
+  vc_user_name:=get_application_property(username); 
+  vc_user_password:=get_application_property(password); 
+  vc_user_connect:=get_application_property(connect_string); 
+  vc_connect:=vc_user_name||'/'||vc_user_password||'@'||vc_user_connect; 
+	
+	cCallRep := cServidorHTTP||'/reports/rwservlet?report='||cReportFile||'&destype=cache&desformat='||cFormato||
+	            '&p_action='||cServidorHTTP||'/reports/rwservlet?'||'&p_servername='||cServer||
+	            '&p_reportfile='||cReportFile||'&p_ssoconn='||cResource||
+	            '&ssoconn='||cResource||cParam;
+	            
+	web.show_document(cCallRep,'_blank');
+END;
+
+
+
+[16:26] Efrain Torres
+https://capaweb.segurosademi.com/ords/f?p=4550:1:6202983094089:::::
+
+[16:27] Efrain Torres
+IT_DEV  Workspace
+
+[16:27] Efrain Torres
+ADMIN  usuario
+
+[16:27] Efrain Torres
+Ademi600
+
+[16:28] Efrain Torres
+ etorres/Ademi2020
+
+[16:32] Efrain Torres
+el password de ADMIN ES Ademi600
+
+begin
+  apex_mail.send(
+    p_to   => 'fperezh@atrioseguros.com',
+    p_from => 'fperezh@atrioseguros.com',
+    p_body => 'Cuerpo del Mensaje',
+    p_subj => 'Titulo del Correo');
+    
+  commit;
+end;
+

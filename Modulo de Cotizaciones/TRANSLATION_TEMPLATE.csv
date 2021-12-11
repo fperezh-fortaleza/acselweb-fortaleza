@@ -1,0 +1,1102 @@
+﻿MESSAGE_CODE;MESSAGE_TEXT;YOUR_TRANSLATION
+SAVED_REPORTS.PRIMARY.DEFAULT;Primary Default;
+APEXIR_MAX_QUERY_COST;The query is estimated to exceed the maximum allowed resources. Please modify your report settings and try again.;
+APEXIR_MIN_X;Minimum %0;
+APEXIR_NEW_CATEGORY;- New Category -;
+APEXIR_NO_COMPUTATION_DEFINED;No computation defined.;
+APEXIR_ORANGE;orange;
+APEXIR_REMOVE_CONTROL_BREAK;Remove Control Break;
+APEX.DATEPICKER_VALUE_INVALID;#LABEL# does not match format %0.;
+APEX.NUMBER_FIELD.VALUE_GREATER_MAX_VALUE;#LABEL# is greater than specified maximum %0.;
+APEX.NUMBER_FIELD.VALUE_NOT_BETWEEN_MIN_MAX;#LABEL# is not between the valid range of %0 and %1.;
+PAGINATION.NEXT_SET;Next Set;
+REPORT_TOTAL;report total;
+SINCE_DAYS_FROM_NOW;%0 days from now;
+SINCE_MINUTES_AGO;%0 minutes ago;
+SINCE_MONTHS_FROM_NOW;%0 months from now;
+SINCE_WEEKS_AGO;%0 weeks ago;
+APEXIR_AGG_AVG;Average;
+APEXIR_BOTTOM;Bottom;
+APEXIR_CANCEL;Cancel;
+APEXIR_COLUMN;Column;
+APEXIR_COMPARISON_IS_IN_NEXT;is in the next;
+APEXIR_COMPARISON_LIKE;like;
+APEXIR_COMPUTATION_FOOTER_E1;(B+C)*100;
+APEXIR_COMPUTATION_FOOTER_E2;INITCAP(B)||'', ''||INITCAP(C);
+APEXIR_DELETE_CONFIRM_JS_DIALOG;Would you like to perform this delete action?;
+APEXIR_DESCENDING;Descending;
+APEXIR_DISPLAY_IN_REPORT;Display in Report;
+APEXIR_DO_NOT_DISPLAY;Do Not Display;
+APEXIR_EDIT_ALTERNATIVE_DEFAULT;Edit Alternative Default;
+APEXIR_EDIT_CHART;Edit Chart Settings;
+APEXIR_ENABLE_DISABLE_ALT;Enable/Disable;
+APEXIR_FILTER;Filter;
+APEXIR_HELP_COMPUTE;Computations allow you to add computed columns to your report. These can be mathematical computations (e.g. NBR_HOURS/24) or standard Oracle functions applied to existing columns (some have been displayed for example, others, like TO_DATE, can also be used).<p/><ul><li><b>Computation</b> allows you to select a previously defined computation to edit.</li><li><b>Column Heading</b> is the column heading for the new column.</li><li><b>Format Mask</b> is an Oracle format mask to be applied against the column (e.g. S9999).</li><li><b>Format Mask</b> is an Oracle format mask to be applied against the column (e.g. S9999).</li><li><b>Computation</b> is the computation to be performed. Within the computation, columns are referenced using the aliases displayed.</li></ul><p/>Below computation, the columns in your query are displayed with their associated alias. Clicking on the column name or alias will write them into the Computation. Next to Columns is a Keypad. These are simply shortcuts of commonly used keys. On the far right are Functions.<p/>An example computation to display Total Compensation is:<p/><pre>CASE WHEN A = ''sales'' THEN B + C ELSE B END</pre>(where A is ORGANIZATION, B is SALARY and C is COMMISSION);
+APEXIR_HELP_DETAIL_VIEW;To view the details of a single row at a time, click the single row view icon on the row you want to view. If available, the single row view will always be the first column. Depending on the customization of the Interactive Report, the single row view may be the standard view or a custom page that may allow update.;
+APEXIR_HELP_SORT;Used to change the column(s) to sort on and whether to sort ascending or descending. You can also specify how to handle nulls (use the default setting, always display them last or always display them first). The resulting sorting is displayed to the right of column headings in the report.;
+APEXIR_LAST_DAY;Last Day;
+APEXIR_MAX_ROW_CNT;This query returns more then %0 rows, please filter your data to ensure complete results.;
+APEXIR_MONTH;Month;
+APEXIR_NUMERIC_SEQUENCE;Sequence must be numeric.;
+APEXIR_RED;red;
+APEXIR_ROW_ORDER;Row Order;
+APEXIR_SAVE_AS_DEFAULT;Save as Default;
+APEXIR_SAVE_REPORT;Save Report;
+APEXIR_SEARCH_BAR;Search Bar;
+APEXIR_SELECT_SORT_COLUMN;- Select Sort Column -;
+APEXIR_SORT_DESCENDING;Sort Descending;
+APEXIR_SUM_X;Sum %0;
+APEXIR_TIME_YEARS;years;
+APEXIR_UNIQUE_COLUMN_HEADING;Column Heading must be unique.;
+APEXIR_UNIQUE_HIGHLIGHT_NAME;Highlight Name must be unique.;
+APEXIR_VCOLUMN;Vertical Column;
+APEXIR_VIEW_CHART;View Chart;
+APEXIR_VIEW_ICONS;View Icons;
+APEXIR_WORKING_REPORT;Working Report;
+IR_STAR;Only displayed for developers;
+APEX.ITEM_TYPE.YES_NO.YES_LABEL;Yes;
+APEX.REGION.JQM_LIST_VIEW.SEARCH;Search;
+APEX.GV.DUP_REC_ID;Duplicate identity;
+APEX.GV.FIRST_PAGE;First;
+APEX.GV.PAGE_RANGE_XY;%0 - %1;
+APEX.GV.PREV_PAGE;Previous;
+APEX.GV.SELECTION_COUNT;%0 rows selected;
+APEX.IG.ALTERNATIVE;Alternative;
+APEX.IG.APPROX_COUNT_DISTINCT;Approx. Count Distinct;
+APEX.IG.APPROX_COUNT_DISTINCT_OVERALL;Overal Approx. Count Distinct;
+APEX.IG.BETWEEN;between;
+APEX.IG.CHART_VIEW;Chart View;
+APEX.IG.COLOR_GREEN;Green;
+APEX.IG.DATA;Data;
+APEX.IG.DATE;Date;
+APEX.IG.DETAIL;Detail;
+APEX.IG.DOWNLOAD_FORMAT;Choose Format;
+APEX.IG.EMAIL_CC;Copy (cc);
+APEX.IG.HELP.ACTIONS.REPORTING_HEADING;Reporting Capabilities;
+APEX.IG.SEARCH;Search;
+APEX.IG.SEARCH_FOR.X;Search for '%0';
+APEX.IG.SINGLE_ROW_VIEW;Single Row View;
+APEX.IG.SUMMARY;Interactive Grid. Report: %0, View: %1.;
+APEX.IG.TOOLTIP;Tooltip;
+APEX.IG.WIDTH;Minimum Column Width (Pixel);
+APEX.IG.X.IN_THE_LAST.Y.YEARS;%0 in the last %1 years;
+APEX.IG.X.IN_THE_LAST_HOUR;%0 in the last hour;
+APEX.IG.X.IN_THE_NEXT.Y.HOURS;%0 in the next %1 hours;
+APEX.IG.X.IN_THE_NEXT.Y.MONTHS;%0 in the next %1 months;
+APEX.IG.X.IN_THE_NEXT_MONTH;%0 in the next month;
+APEX.IG.X.IN_THE_NEXT_YEAR;%0 in the next year;
+APEX.IG.X.NOT_IN_THE_LAST.Y.MONTHS;%0 not in the last %1 months;
+APEX.IG.X.NOT_IN_THE_NEXT.Y.HOURS;%0 not in the next %1 hours;
+APEX.IG.X.NOT_IN_THE_NEXT.Y.MINUTES;%0 not in the next %1 minutes;
+APEX.IG.X.NOT_IN_THE_NEXT.Y.YEARS;%0 not in the next %1 years;
+APEX.IG.YEARS;years;
+APEX.RV.NEXT_RECORD;Next;
+APEX.ITEM.HELP_TEXT;Help Text: %0;
+APEX.RICH_TEXT_EDITOR.ACCESSIBLE_LABEL;%0, rich text editor;
+APEX.ERROR_MESSAGE_HEADING;Error Message;
+WWV_FLOW_WEB_SERVICES.NO_VALID_OAUTH_TOKEN;OAuth access token not available or expired.;
+APEX.SINCE.SHORT.WEEKS_AGO;%0w;
+APEX.IG.HELP.AGGREGATE_TITLE;Aggregation Help;
+APEX.IG.HELP.REPORT;"<p>Use this dialog to save changes you have made to the current grid layout and configuration.<br>
+Application developers can define multiple alternate report layouts. Where permissible, you and other end users can save a report as Public, which makes the report available to all other users of the grid. You can also save a report as a Private report that only you can view.</p>
+<p>Select from the available types and enter a name for the saved report.</p>";
+APEX.IG.HELP.REPORT_TITLE;"Report Help
+";
+APEX.IG.IN_THE_NEXT;in the next;
+APEX.IG.INVALID_SETTINGS;Invalid Settings;
+APEX.IG.IS_NULL;is empty;
+APEX.IG.LAST.YEAR;Last Year;
+APEX.IG.LAYOUT_ALIGN;Cell Alignment;
+APEX.IG.LINE;Line;
+APEX.IG.LINE_WITH_AREA;Line with Area;
+APEX.IG.MATCHES_REGULAR_EXPRESSION;matches regular expression;
+APEXIR_FUNCTION_N;Function %0;
+APEXIR_HELP_PIVOT;You can define one Pivot view per saved report. Once defined, you can switch between the pivot and report views using view icons on the Search bar. To create a Pivot view, you select: <p></p> <ul> <li>the columns on which to pivot</li> <li>the columns to display as rows</li> <li>the columns to aggregate along with the function to be performed (average, sum, count, etc.)</li> </ul>;
+APEXIR_HELP_SEARCH_BAR_REPORTS;<li><b>Reports</b> displays alternate default and saved private or public reports.</li>;
+APEXIR_PIVOT;Add Pivot Column;
+APEXIR_ADD_PIVOT_COLUMN;Add Pivot Column;
+APEXIR_ALL_ROWS;All Rows;
+APEXIR_CHART_LABEL_NOT_NULL;Chart label must be specified;
+APEXIR_COLUMN_FILTER;Filter...;
+APEX.IG.NEXT.DAY;Next Day;
+APEX.IG.NEXT.X_MONTHS;Next %0 Months;
+APEX.IG.NEXT.X_WEEKS;Next %0 Weeks;
+APEX.IG.NEXT.X_YEARS;Next %0 Years;
+APEX.IG.NEXT.YEAR;Next Year;
+APEX.IG.NOT_IN_THE_LAST;not in the last;
+APEX.IG.NULLS;Nulls;
+APEX.IG.ON;On;
+APEX.IG.OPEN_COLORPICKER;Open Color Picker: %0;
+APEX.IG.PIE;Pie;
+APEX.IG.PIVOT;Pivot;
+APEX.IG.PRIMARY;Primary;
+APEX.IG.REPORT.SAVED.ALTERNATIVE;Alternative report saved for all users;
+APEX.IG.REPORT.SAVED.DEFAULT;Default report saved for all users;
+APEX.IG.REPORT_EDIT;Report - Edit;
+APEX.SESSION.EXPIRED.NEW_SESSION;"Click <a href=%0"">here</a> to create a new session.""";
+APEX.IG.MAILADDRESSES_COMMASEP;Separate multiple Addresses with commas;
+APEXIR_COLUMN_LABEL;Column Label;
+APEXIR_SELECT_ROW_COLUM;- Select Row Column -;
+OUT_OF_RANGE;Invalid set of rows requested, the source data of the report has been modified.;
+RESET;Reset Pagination;
+WWV_RENDER_REPORT3.X_Y_OF_Z_2;%0 - %1 of %2;
+APEXIR_LAST_X_DAYS;Last %0 Days;
+APEXIR_MONTHLY;Monthly;
+APEX.DATEPICKER_VALUE_GREATER_MAX_DATE;#LABEL# is greater than specified maximum date %0.;
+APEX.DATEPICKER_VALUE_NOT_IN_YEAR_RANGE;#LABEL# is not within valid year range of %0 and %1.;
+APEX.NUMBER_FIELD.VALUE_INVALID2;#LABEL# does not match number format %0 (For example, %1).;
+APEX.NUMBER_FIELD.VALUE_LESS_MIN_VALUE;#LABEL# is less than specified minimum %0.;
+FLOW.VALIDATION_ERROR;%0 errors have occurred;
+PAGINATION.NEXT;Next;
+PAGINATION.PREVIOUS;Previous;
+SINCE_MONTHS_AGO;%0 months ago;
+WWV_FLOW_UTILITIES.OK;Ok;
+WWV_RENDER_REPORT3.UNSAVED_DATA;This form contains unsaved changes. Press Ok to proceed without saving your changes.;
+APEXIR_ACTIONS_MENU;Actions Menu;
+APEXIR_ALL_COLUMNS;All Columns;
+APEXIR_APPLY;Apply;
+APEXIR_COMPARISON_ISNOT_IN_LAST;is not in the last;
+APEXIR_DELETE_CHECKED;Delete Checked;
+APEXIR_DISABLE;Disable;
+APEXIR_DISABLED;Disabled;
+APEXIR_EMAIL_SEE_ATTACHED;See attached.;
+APEXIR_FINDER_ALT;Select columns to search;
+APEXIR_FORMAT_MASK;Format;
+APEXIR_FUNCTIONS_OPERATORS;Functions / Operators;
+APEXIR_FUNCTIONS;Functions;
+APEXIR_HELP_SAVE_REPORT;Saves the customized report for future use. You provide a name and an optional description.;
+APEXIR_LAST_MONTH;Last Month;
+APEXIR_LAST_X_HOURS;Last %0 Hours;
+APEXIR_NO;No;
+APEXIR_PUBLIC;Public;
+APEXIR_UNSUPPORTED_DATA_TYPE;unsupported data type;
+APEXIR_VALID_COLOR;Please enter a valid color.;
+APEXIR_VALID_FORMAT_MASK;Please enter a valid format mask.;
+APEXIR_X_YEARS;%0 years;
+APEX.ITEM_TYPE.SLIDER.VALUE_NOT_BETWEEN_MIN_MAX;#LABEL# is not between the valid range of %0 and %1.;
+APEX.ITEM_TYPE.YES_NO.NO_LABEL;No;
+APEX.GV.LOAD_MORE;Load More Rows;
+APEX.GV.NEXT_PAGE;Next;
+APEX.GV.PAGE_RANGE_XYZ;%0 - %1 of %2;
+APEX.GV.SORT_DESCENDING;Sort Descending;
+APEX.IG.ACTIONS;Actions;
+APEX.IG.AVG_OVERALL;Overall Average;
+APEX.IG.BOTH;Both;
+APEX.IG.CANCEL;Cancel;
+APEX.IG.CASE_SENSITIVE;Case Sensitive;
+APEX.IG.CHART;Chart;
+APEX.IG.COLORS;Colors;
+APEX.IG.DATA_TYPE;Data Type;
+APEX.IG.DETAIL_VIEW;Detail View;
+APEX.IG.DUPLICATE_CONTROLBREAK;Duplicate Control Break;
+APEX.IG.FILTER_WITH_DOTS;Filter...;
+APEX.IG.FORMAT;Format;
+APEX.IG.GO;Go;
+APEX.IG.GRID_VIEW;Grid View;
+APEX.IG.HELP.ACTIONS.INTRO;"<p>An interactive grid presents a set of data in a searchable, customizable report. You can perform numerous operations to limit the records returned, and change the way the data is displayed.</p>
+
+<p>Use the Search field to filter the records returned. Click Actions to access numerous options for modifying the report layout, or use the Column Heading menus on displayed columns.</p>
+
+<p>Use Report Settings to save your customizations to a report. You can also download the data from the report to an external file or email the data to yourself or others.</p>
+
+<p>To learn more, see Using Interactive Grids in <em>Oracle Application Express End User's Guide</em>.""""";
+APEX.IG.REVERT_ROWS;Revert Rows;
+APEX.IG.ROW_CONTEXT;Row %0;
+APEX.IG.SAVED_REPORT_PRIVATE;Private;
+APEX.IG.SELECT_COLUMNS_TO_SEARCH;Select columns to search;
+APEX.IG.SORT;Sort;
+APEX.IG.TOGGLE;Toggle;
+APEX.IG.X.GREATER_THAN.Y;%0 greater than %1;
+APEX.IG.X.GREATER_THAN_OR_EQUALS.Y;%0 greater than or equal to %1;
+APEX.IG.X.IN_THE_NEXT.Y.DAYS;%0 in the next %1 days;
+APEX.IG.X.IN_THE_NEXT_DAY;%0 in the next day;
+APEX.IG.X.LESS_THAN.Y;%0 less than %1;
+APEX.IG.X.LESS_THAN_OR_EQUALS.Y;%0 less than or equal to %1;
+APEX.IG.X.NOT_IN_THE_LAST.Y.DAYS;%0 not in the last %1 days;
+APEX.IG.X.NOT_IN_THE_NEXT.Y.DAYS;%0 not in the next %1 days;
+APEX.IG.X.NOT_IN_THE_NEXT_DAY;%0 not in the next day;
+APEX.IG_FORMAT_SAMPLE_4;in 16h;
+APEX.RV.REC_X;Row %0;
+APEX.RV.EXCLUDE_HIDDEN;Displayed Columns;
+APEXIR_DATA;Data;
+APEXIR_FILTER_EXPR_TOO_LONG;The filter expression is too long.;
+APEX.COMPLETED_STATE;(Completed);
+APEX.MENU.OVERFLOW_LABEL;More...;
+APEX.COMBOBOX.SHOW_ALL_VALUES;Open list for: %0;
+APEX.COMBOBOX.LIST_OF_VALUES;List of Values;
+WWV_FLOW_CUSTOMIZE.T_MESSAGE3;You can personalize the appearance of this application by changing the Theme Style. Please select a Theme Style from the list below and click on Apply Changes.;
+APEX.ITEM.NOT_FOUND;Item %0 not found.;
+CHART_SERIES_ERROR;Chart series error %0 for %1.;
+APEX.IG.HELP.COLUMNS;"<p>Use this dialog to choose which columns display and in what order.</p>
+
+<p>Hide a column by deselecting it.<br>
+Reorder columns by clicking Move Up ( &uarr; ) or Move Down ( &darr; ).<br>
+Use the drop down selector to list All columns, Displayed columns, or Not Displayed columns.</p>
+
+<p>Optionally, use the form to specify the minimum width of a column in pixels.</p>
+
+<p><em>Note: You can also reorder displayed columns by clicking the drag handle (at the start of the column heading) and dragging the column left or right. You can also change the column width of displayed columns by selecting the column separator, between headings, and moving it left or right.</em</p>";
+APEX.IG.HELP.SORT_TITLE;Sort Help;
+APEX.IG.INACTIVE_SETTING;Inactive Setting;
+APEX.IG.INVALID_DATE_FORMAT;Invalid Date Format;
+APEX.IG.INVALID_VALUE;Invalid Value;
+APEX.IG.INVISIBLE;Not Displayed;
+APEX.IG.LABEL;Label;
+APEX.IG.LAST.X_MONTHS;Last %0 Months;
+APEX.IG.MAILADRESSES_COMMASEP;Separate multiple Adresses with commas;
+APEXIR_HELP_FORMAT;<p>Format enable you to customize the display of the report. Format contains the following submenu:</p> <ul><li>Sort</li> <li>Control Break</li> <li>Highlight</li> <li>Compute</li> <li>Aggregate</li> <li>Chart</li> <li>Group By</li> <li>Pivot</li> </ul>;
+APEXIR_HELP_SEARCH_BAR_FINDER;<li><b>Select columns icon</b> enables you to identify which column to search (or all).</li>;
+APEXIR_HELP_SEARCH_BAR_TEXTBOX;<li><b>Text area</b> enables you to enter case insensitive search criteria (wild card characters are implied).</li> <li><b>Go button</b> executes the search. Hitting the enter key will also execute the search when the cursor is in the search text area.</li>;
+APEXIR_LABEL_PREFIX;Label Prefix;
+APEXIR_PIVOT_COLUMN_N;Pivot Column %0;
+APEXIR_REPORT_ALIAS_DOES_NOT_EXIST;Saved Interactive report with alias %0 does not exist.;
+APEXIR_SAVE_DEFAULT_REPORT;Save Default Report;
+APEXIR_SEND;Send;
+APEX.IG.MONTHS;months;
+APEX.IG.NEXT.X_MINUTES;Next %0 Minutes;
+APEX.IG.NUMBER;Numeric;
+APEX.IG.REPORT.SAVED.PRIVATE;Private report saved;
+APEX.IG.REPORT_STATIC_ID_DOES_NOT_EXIST;Saved Interactive Grid with static ID %0 does not exist.;
+APEX.SESSION.EXPIRED;Your session has expired;
+REPORTING_PERIOD;Reporting Period;
+APEXIR_HIGHLIGHT_TYPE;Highlight Type;
+APEXIR_IS_IN_THE_LAST;%0 is in the last %1;
+APEXIR_NEXT_MONTH;Next Month;
+APEXIR_PERCENT_OF_TOTAL_SUM_X;Percent of Total Sum %0 (%);
+APEXIR_REMOVE;Remove;
+APEX.PAGE_ITEM_IS_REQUIRED;#LABEL# must have some value.;
+SINCE_DAYS_AGO;%0 days ago;
+WWV_RENDER_REPORT3.FOUND_BUT_NOT_DISPLAYED;Minimum row requested: %0, rows found but not displayed: %1;
+WWV_RENDER_REPORT3.X_Y_OF_Z;row(s)%0 - %1 of %2;
+4150_COLUMN_NUMBER;Column %0;
+APEXIR_ADD_SUBSCRIPTION;Add Subscription;
+APEXIR_AGG_MODE;Mode;
+APEXIR_AGG_SUM;Sum;
+APEXIR_ALTERNATIVE_DEFAULT_NAME;Alternative Default: %0;
+APEXIR_AVERAGE_X;Average %0;
+APEXIR_CALENDAR;Calendar;
+APEXIR_CATEGORY;Category;
+APEXIR_COLUMNS;Columns;
+APEXIR_COLUMN_INFO;Column Information;
+APEXIR_COUNT_DISTINCT_X;Count Distinct;
+APEXIR_COUNT_X;Count %0;
+APEXIR_DATA_AS_OF;Report data as of %0 minutes ago.;
+APEXIR_EMAIL;Email;
+APEXIR_EMAIL_ADDRESS;Email Address;
+APEXIR_EMAIL_TO;To;
+APEXIR_EXCLUDE_NULL;Exclude Null Values;
+APEXIR_FLASHBACK_DESCRIPTION;A flashback query enables you to view the data as it existed at a previous point in time.;
+APEXIR_FLASHBACK_ERROR_MSG;Unable to perform flashback request;
+APEXIR_GO;Go;
+APEXIR_GROUP_BY;Group By;
+APEXIR_GREEN;green;
+APEXIR_HELP_01;An Interactive Report displays a predetermined set of columns. The report may be further customized with an initial filter clause, a default sort order, control breaks, highlighting, computations, aggregates and a chart. Each Interactive Report can then be further customized and the results can be viewed, or downloaded, and the report definition can be stored for later use. <p/> An Interactive Report can be customized in three ways: the search bar, actions menu and column heading menu.;
+APEXIR_HELP_ACTIONS_MENU;The actions menu is used to customize the display of your Interactive Report.;
+APEXIR_HELP_FLASHBACK;Performs a flashback query to allow you to view the data as it existed at a previous point in time. The default amount of time that you can flashback is 3 hours (or 180 minutes) but the actual amount will differ per database.;
+APEXIR_HELP_RESET;Resets the report back to the default settings, removing any customizations that you have made.;
+APEXIR_HIGHLIGHT;Highlight;
+APEXIR_LABEL_AXIS_TITLE;Axis Title for Label;
+APEXIR_LAST_YEAR;Last Year;
+APEXIR_OPERATOR;Operator;
+APEXIR_PERCENT_TOTAL_SUM;Percent of Total Sum;
+APEXIR_PIE;Pie;
+APEXIR_PREVIOUS;"&lt;";
+APEXIR_REPORT_VIEW;"&lt; Report View";
+APEXIR_SAVED_REPORT;Saved Report;
+APEXIR_SEARCH_REPORT;Search Report;
+APEXIR_VALUE;Value;
+APEXIR_VALUE_REQUIRED;Value Required;
+APEX.REGION.JQM_LIST_VIEW.LOAD_MORE;Load more;
+APEX.GV.BREAK_EXPAND;Expand control break;
+APEX.GV.DELETED_COUNT;%0 rows deleted;
+APEX.IG.ACC_LABEL;Interactive Grid %0;
+APEX.IG.AXIS_VALUE_DECIMAL;Decimal Places;
+APEX.IG.BACKGROUND_COLOR;Background Color;
+APEX.IG.COMPUTE;Compute;
+APEX.IG.DOWNLOAD;Download;
+APEX.IG.EDIT_CHART;Edit Chart;
+APEX.IG.EMAIL_SUBJECT;Subject;
+APEX.IG.FILTER;Filter;
+APEX.IG.FORMAT_HTML;HTML;
+APEX.IG.FREEZE;Freeze;
+APEX.IG.GREATER_THAN_OR_EQUALS;greater than or equals;
+APEX.IG.GROUP_BY;Group By;
+APEX.IG.HEADING_ALIGN;Heading Alignment;
+APEX.IG.SAVE_REPORT_SETTINGS;Save Report Settings;
+APEX.IG.SAVED_REPORT_PUBLIC;Public;
+APEX.IG.STARTS_WITH;starts with;
+APEX.IG.SUM;Sum;
+APEX.IG.UNSAVED_CHANGES_CONTINUE_CONFIRM;There are unsaved changes. Do you want to continue?;
+APEX.IG.VALUE_REQUIRED;A value is required.;
+APEX.IG.X.CONTAINS.Y;%0 contains %1;
+APEX.IG.X.IN_THE_LAST.Y.WEEKS;%0 in the last %1 weeks;
+APEX.IG.X.IN_THE_LAST_MONTH;%0 in the last month;
+APEX.IG.X.IS_NOT_NULL;%0 is not empty;
+APEX.IG.X.NOT_IN.Y;%0 not in %1;
+APEX.IG.X.NOT_IN_THE_NEXT_HOUR;%0 not in the next hour;
+APEX.IG.X.NOT_IN_THE_NEXT_MONTH;%0 not in the next month;
+APEX.RV.REC_XY;Row %0 of %1;
+APEXIR_MAP_IT;Map it;
+APEX.TEMPLATE.EXPAND_COLLAPSE_SIDE_COL_LABEL;Expand / Collapse Side Column;
+APEX.SINCE.SHORT.YEARS_FROM_NOW;in %0y;
+APEX.SINCE.SHORT.YEARS_AGO;%0y;
+WWV_FLOW_CUSTOMIZE.T_REGION_DISP;Region Display;
+WWV_FLOW_DATA_EXPORT.AGG_COLUMN_IDX_NOT_EXIST;The column index referenced in the aggregate %0 does not exist.;
+APEX.IG.HELP.HIGHLIGHT;"<p>Use this dialog to highlight rows or columns of data based on the condition entered.</p>
+
+<p><strong>Highlight List</strong><br>
+The Highlight list displays defined highlights. Disable an existing highlight by deselecting it.<br>
+Click Add ( &plus; ) to create a new highlight, or Delete ( &minus; ) to remove an existing highlight.</p>
+
+<p><strong>Highlight Settings</strong><br>
+Use the form to define the highlight properties.<br>
+Enter the name, select Row or Column, and select the HTML color codes for the background and text.<br>
+Select the appropriate <strong>Condition Type</strong> to highlight specific data:<br>
+&nbsp;&nbsp;&nbsp;Row - highlight the term in any column.<br>
+&nbsp;&nbsp;&nbsp;Column - highlight within a specific column based on the specified operator and value.</p>";
+APEX.IG.HIGHLIGHT;Highlight;
+APEX.IG.ICON_VIEW;Icon View;
+APEX.IG.INVALID_SETTING;Invalid Setting;
+APEX.IG.INVALID_SORT_BY;Sort By has been set to %0, but no column as been selected for %0.;
+APEX.IG.LAST.MINUTE;Last Minute;
+APEX.IG.LOW_COLUMN;Low;
+APEXIR_HELP_SEARCH_BAR_ACTIONS_MENU;<li><b>Actions Menu</b> enables you to customize a report. See the sections that follow.</li>;
+APEXIR_HELP_SEARCH_BAR_VIEW;<li><b>View Icons</b> switches between the icon, report, detail, chart, group by, and pivot views of the report if they are defined.</li>;
+APEXIR_INACTIVE_SETTING;1 inactive setting;
+APEXIR_PIVOT_SORT;Pivot Sort;
+APEXIR_REMOVE_CHART;Remove Chart;
+APEXIR_REMOVE_GROUP_BY;Remove Group By;
+APEXIR_REMOVE_PIVOT;Remove Pivot;
+APEXIR_REPORT_ID_DOES_NOT_EXIST;Saved Interactive Report ID %0 does not exist.;
+APEXIR_RPT_DISP_COL_EXCEED;The number of display columns in the report reached the limit. Please click Select Columns under Actions menu to minimize the report display column list.;
+APEXIR_SELECT_GROUP_BY_COLUMN;- Select Group By Column -;
+APEXIR_CHART_MAX_ROW_CNT;The maximum row count for a chart query limits the number of rows in the base query, not the number of rows displayed. Your base query exceeds the maximum row count of %0. Please apply a filter to reduce the number of records in your base query.;
+APEXIR_EMAIL_SUBJECT_REQUIRED;Email Subject must be specified.;
+APEXIR_SELECT_ROW_COLUMN;- Select Row Column -;
+APEXIR_SELECTED_COLUMNS;Selected Columns;
+APEX.IG.MEDIAN_OVERALL;Overall Median;
+APEX.IG.NOT_EQUALS;not equals;
+APEX.IG.NOT_EXIST;Region with ID %0 is not an Interactive Grid region or does not exist in application %1.;
+APEX.IG.OPEN_COLUMN;Open;
+APEX.IG.POSITION_END;End;
+APEX.IG.RADAR;Radar;
+APEX.IG.REFRESH_ROWS;Refresh Rows;
+APEX.IG.REPORT_DATA_AS_OF.X.MINUTES_AGO;Report data as of %0 minutes ago;
+APEX.IG.REVERT_CHANGES;Revert Changes;
+RESTORE;Restore;
+APEXIR_NONE;- None -;
+APEXIR_REPORTS;Reports;
+PAGINATION.PREVIOUS_SET;Previous Set;
+SINCE_HOURS_AGO;%0 hours ago;
+SINCE_HOURS_FROM_NOW;%0 hours from now;
+SINCE_NOW;Now;
+SINCE_SECONDS_FROM_NOW;%0 seconds from now;
+WWV_FLOW_UTILITIES.CAL;Calendar;
+APEXIR_ACTIONS;Actions;
+APEXIR_AGG_MAX;Maximum;
+APEXIR_AGG_MEDIAN;Median;
+APEXIR_AGG_MIN;Minimum;
+APEXIR_AND;and;
+APEXIR_CHART_INITIALIZING;Initializing...;
+APEXIR_CHART_TYPE;Chart Type;
+APEXIR_COMPARISON_IN;in;
+APEXIR_CONTROL_BREAK;Control Break;
+APEXIR_DEFAULT_REPORT_TYPE;Default Report Type;
+APEXIR_DELETE_REPORT;Delete Report;
+APEXIR_DESCRIPTION;Description;
+APEXIR_DETAIL_VIEW;Single Row View;
+APEXIR_DOWNLOAD;Download;
+APEXIR_EDIT_CHART2;Edit Chart;
+APEXIR_EDIT_GROUP_BY;Edit Group By;
+APEXIR_EDIT_HIGHLIGHT;Edit Highlight;
+APEXIR_EMAIL_BCC;Bcc;
+APEXIR_EMAIL_CC;Cc;
+APEXIR_EMAIL_FREQUENCY;Frequency;
+APEXIR_HCOLUMN;Horizontal Column;
+APEXIR_HELP_CHART;You can include one chart per Interactive Report. Once defined, you can switch between the chart and report views using links below the search bar.<p/><ul><li><b>Chart Type</b> identifies the chart type to include. Select from horizontal bar, vertical bar, pie or line.</li><li><b>Label</b> allows you to select the column to be used as the label.</li><li><b>Axis Title for Label</b> is the title that will display on the axis associated with the column selected for Label. This is not available for pie chart.</li><li><b>Value</b> allows you to select the column to be used as the value. If your function is a COUNT, a Value does not need to be selected.</li><li><b>Axis Title for Value</b> is the title that will display on the axis associated with the column selected for Value. This is not available for pie chart.</li><li><b>Function</b> is an optional function to be performed on the column selected for Value.</li></ul>;
+APEXIR_HELP_COLUMN_HEADING_MENU;Clicking on any column heading exposes a column heading menu.<p/><ul><li><b>Sort Ascending icon</b> sorts the report by the column in ascending order.</li><li><b>Sort Descending icon</b> sorts the report by the column in descending order.</li><li><b>Hide Column</b> hides the column.</li><li><b>Break Column</b> creates a break group on the column. This pulls the column out of the report as a master record.</li><li><b>Column Information</b> displays help text about the column, if available.</li><li><b>Text Area</b> is used to enter case insensitive search criteria (no need for wild cards). Entering a value will reduce the list of values at the bottom of the menu. You can then select a value from the bottom and the selected value will be created as a filter using ''='' (e.g. column = ''ABC''). Alternatively, you can click the flashlight icon and the entered value will be created as a filter with the ''LIKE'' modifier (e.g. column LIKE ''%ABC%'').<li><b>List of Unique Values</b> contains the first 500 unique values that meet your filters. If the column is a date, a list of date ranges is displayed instead. If you select a value, a filter will be created using ''='' (e.g. column = ''ABC'').</li></ul>;
+APEXIR_HELP_DOWNLOAD;Allows the current result set to be downloaded. The download formats will differ depending upon your installation and report definition but may include CSV, XLS, PDF, or RTF.;
+APEXIR_HELP_HIGHLIGHT;Highlighting allows you to define a filter. The rows that meet the filter are highlighted using the characteristics associated with the filter.<p/><ul><li><b>Name</b> is used only for display.</li><li><b>Sequence</b> identifies the sequence in which the rules will be evaluated.</li><li><b>Enabled</b> identifies if the rule is enabled or disabled.</li><li><b>Highlight Type</b> identifies whether the Row or Cell should be highlighted. If Cell is selected, the column referenced in the Highlight Condition is highlighted.</li><li><b>Background Color</b> is the new color for the background of the highlighted area.</li><li><b>Text Color</b> is the new color for the text in the highlighted area.</li><li><b>Highlight Condition</b> defines your filter condition.</li></ul>;
+APEXIR_KEYPAD;Keypad;
+APEXIR_MORE_DATA;More Data;
+APEXIR_NEW_COMPUTATION;New Computation;
+APEXIR_NEXT_DAY;Next Day;
+APEXIR_NO_COLUMN_INFO;No column information available.;
+APEXIR_REPORT;Report;
+APEXIR_REPORT_SETTINGS;Report Settings;
+APEXIR_ROWS;Rows;
+APEXIR_SAVED_REPORT_MSG;"Saved Report = %0""""";
+APEXIR_SELECT_COLUMN;- Select Column -;
+APEXIR_SELECT_COLUMNS_FOOTER;Computed columns are prefixed with **.;
+APEXIR_SELECT_VALUE;Select Value;
+APEXIR_SEQUENCE;Sequence;
+APEXIR_TIME_MINS;minutes;
+APEXIR_X_HOURS;%0 hours;
+APEX.DATEPICKER.ICON_TEXT;Popup Calendar: %0;
+APEX.ITEM_TYPE.SLIDER.VALUE_NOT_MULTIPLE_OF_STEP;#LABEL# is not a multiple of %0.;
+APEX.GV.BREAK_COLLAPSE;Collapse control break;
+APEX.GV.TOTAL_PAGES;Total %0;
+APEX.IG.ALL_TEXT_COLUMNS;All Text Columns;
+APEX.IG.AUTHORIZATION;Authorization;
+APEX.IG.CLOSE_COLUMN;Close;
+APEX.IG.COLOR_ORANGE;Orange;
+APEX.IG.COLUMN_TYPE;Column Purpose;
+APEX.IG.CONTROL_BREAK;Control Break;
+APEX.IG.EMAIL_TO;Recipient (to);
+APEX.IG.ENABLED;Enabled;
+APEX.IG.FUNNEL;Funnel;
+APEX.IG.GREATER_THAN;greater than;
+APEX.IG.GROUP;Group;
+APEX.IG.HEADING;Heading;
+APEX.IG.HELP.ACTIONS.REPORTING;"<p>You can customize the interactive grid to display data in various different ways using the built-in capabilities.</p>
+
+<p>Use the Column Heading menus or the Actions menu to determine which columns to display, in what sequence, and freeze columns. You can also define various data filters and sort the data returned.</p>
+
+<p>Use the View button (adjacent to the Search field) to access other data views that may have been defined by the application developer. You can also create a chart or view an existing chart.</p>  
+
+<p><em>Note: Click <strong>Help</strong> in the interactive grid dialogs to obtain more detailed information on the selected function.</em></p>";
+APEX.IG.SAVE;Save;
+APEX.IG.SAVE_AS;Save As;
+APEX.IG.SAVED_REPORTS;Saved Reports;
+APEX.IG.SELECT_1_ROW_IN_MASTER;Select 1 row in the master region;
+APEX.IG.STOCK;Stock;
+APEX.IG.SUM_OVERALL;Overall Sum;
+APEX.IG.TARGET_COLUMN;Target;
+APEX.IG.TEXT_COLOR;Text Color;
+APEX.IG.X.BETWEEN.Y.AND.Z;%0 between %1 and %2;
+APEX.IG.X.IN_THE_LAST.Y.DAYS;%0 in the last %1 days;
+APEX.IG.X.IN_THE_LAST.Y.MINUTES;%0 in the last %1 minutes;
+APEX.IG.X.IN_THE_LAST_DAY;%0 in the last day;
+APEX.IG.X.IN_THE_NEXT_WEEK;%0 in the next week;
+APEX.IG.X.LIKE.Y;%0 like %1;
+APEX.IG.X.MATCHES_REGULAR_EXPRESSION.Y;%0 matches regular expression %1;
+APEX.IG.X.NOT_IN_THE_LAST.Y.MINUTES;%0 not in the last %1 minutes;
+APEX.IG.X.NOT_IN_THE_LAST.Y.YEARS;%0 not in the last %1 years;
+APEX.IG.X.NOT_IN_THE_LAST_MINUTE;%0 not in the last minute;
+APEX.IG.X.NOT_IN_THE_NEXT.Y.MONTHS;%0 not in the next %1 months ;
+APEX.IG.X.NOT_IN_THE_NEXT_MINUTE;%0 not in the next minute;
+APEX.IG.X.NOT_IN_THE_NEXT_WEEK;%0 not in the next week;
+APEX.IG.X.NOT_IN_THE_NEXT_YEAR;%0 not in the next year;
+APEX.IG.X.STARTS_WITH.Y;%0 starts with %1;
+APEX.IG.X_COLUMN;X;
+APEXIR_REMOVE_REPORT;Remove Report;
+LAYOUT.T_#EXPAND_COLLAPSE_SIDE_COL_LABEL#;Label for Expand / Collapse Side Column;
+APEX.TABS.PREVIOUS;Previous;
+APEX.SINCE.SHORT.HOURS_FROM_NOW;in %0h;
+APEX.TB.TOOLBAR;Toolbar;
+APEX.IG.HELP.CONTROL_BREAK_TITLE;Control Break Help;
+APEX.IG.HIGH_COLUMN;High;
+APEX.IG.HOURS;hours;
+APEX.IG.INTERNAL_ERROR;An internal error has occurred while processing the Interactive Grid request.;
+APEX.IG.IS_NOT_NULL;is not empty;
+APEX.IG.LAST;Last;
+APEX.IG.LAST.MONTH;Last Month;
+APEX.IG.LAST.WEEK;Last Week;
+APEX.IG.LAST.X_HOURS;Last %0 Hours;
+APEXIR_HELP_SUBSCRIPTION;When you add a subscription, you provide an email address (or multiple email addresses, separated by commas), email subject, frequency, and start and end dates. The resulting emails include an HTML version of the interactive report containing the current data using the report setting that were present when the subscription was added.;
+APEXIR_INVALID_END_DATE;The end date must be greater than the start date.;
+APEXIR_INVALID_SETTINGS;%0 invalid settings;
+APEXIR_RENAME_DEFAULT_REPORT;Rename Default Report;
+APEXIR_ROW_COL_DIFF_FROM_PIVOT_COL;Row column must be different from the pivot column.;
+APEXIR_SAVE_REPORT_DEFAULT;Save Report *;
+APEXIR_COLUMN_N;Column %0;
+APEXIR_YEAR;Year;
+APEXIR_HELP_ROWS_PER_PAGE;Sets the number of records to display per page.;
+APEXIR_HELP_SEARCH_BAR_ROWS;<li><b>Rows</b> sets the number of records to display per page.</li>;
+APEXIR_INVALID_FILTER;Invalid filter expression. %0;
+APEX.IG.MORE_DATA_FOUND;The data contains more than %0 rows which exceeds the maximum allowed. Please apply additional filters in order to view the results.;
+APEX.IG.NAME;Name;
+APEX.IG.OFF;Off;
+APEX.IG.ORIENTATION;Orientation;
+APEX.IG.POLAR;Polar;
+APEX.IG.POSITION_CENTER;Center;
+APEX.IG.REMOVE_CONTROL;Remove %0;
+APEX.IG.REPORT;Report;
+APEX.IG.REPORT_SAVE_AS;Report - Save As;
+APEX.IG.REPORT_VIEW;Report View;
+APEXIR_LABEL;Label;
+APEXIR_NEXT_X_YEARS;Next %0 Years;
+APEXIR_RESET;Reset;
+APEX.DATA_HAS_CHANGED;"Current version of data in database has changed since user initiated update process. current checksum = %0"" application checksum = ""%1""""";
+APEX.DATEPICKER_VALUE_NOT_BETWEEN_MIN_MAX;#LABEL# is not between the valid range of %0 and %1.;
+APEX.FILE_BROWSE.DOWNLOAD_LINK_TEXT;Download.;
+APEX.GO_TO_ERROR;Go to error.;
+SINCE_MINUTES_FROM_NOW;%0 minutes from now;
+SINCE_WEEKS_FROM_NOW;%0 weeks from now;
+SINCE_YEARS_FROM_NOW;%0 years from now;
+WWV_FLOW_UTILITIES.CLOSE;Close;
+WWV_RENDER_REPORT3.SORT_BY_THIS_COLUMN;Sort by this column;
+WWV_RENDER_REPORT3.X_Y_OF_MORE_THAN_Z;row(s) %0 - %1 of more than %2;
+APEXIR_ALTERNATIVE;Alternative;
+APEXIR_BETWEEN;between;
+APEXIR_CELL;Cell;
+APEXIR_COMPARISON_ISNOT_IN_NEXT;is not in the next;
+APEXIR_COMPARISON_REGEXP_LIKE;matches regular expression;
+APEXIR_COMPUTATION;Computation;
+APEXIR_COMPUTATION_FOOTER;Create a computation using column aliases.;
+APEXIR_COMPUTE;Compute;
+APEXIR_DEFAULT;Default;
+APEXIR_ERROR;Error;
+APEXIR_EXAMPLES;Examples;
+APEXIR_EXPAND_COLLAPSE_ALT;Expand/Collapse;
+APEXIR_FILTER_EXPRESSION;Filter Expression;
+APEXIR_HELP;Help;
+APEXIR_HELP_SEARCH_BAR;At the top of each report page is a search region. The region provides the following features:<p/><ul><li><b>Select columns icon</b> allows you to identify which column to search (or all).</li><li><b>Text area</b> allows for case insensitive search criteria (no need for wild cards).</li><li><b>Rows</b> selects the number of records to display per page.</li><li><b>[Go] button</b> executes the search.</li><li><b>Actions Menu icon</b> displays the actions menu (discussed next).</li></ul><p/>Please note that all features may not be available for each report.;
+APEXIR_HELP_SELECT_COLUMNS;Used to modify the columns displayed. The columns on the right are displayed. The columns on the left are hidden. You can reorder the displayed columns using the arrows on the far right. Computed columns are prefixed with <b>**</b>.;
+APEXIR_HIGHLIGHT_CONDITION;Highlight Condition;
+APEXIR_MEDIAN_X;Median %0;
+APEXIR_MIN_AGO;%0 minutes ago;
+APEXIR_MOVE;Move;
+APEXIR_NEXT_HOUR;Next Hour;
+APEXIR_NO_AGGREGATION_DEFINED;No aggregation defined.;
+APEXIR_NULLS_ALWAYS_LAST;Nulls Always Last;
+APEXIR_NUMERIC_FLASHBACK_TIME;Flashback time must be numeric.;
+APEXIR_REMOVE_AGGREGATE;Remove Aggregate;
+APEXIR_REMOVE_ALL;Remove All;
+APEXIR_REMOVE_FILTER;Remove Filter;
+APEXIR_REPORT_DOES_NOT_EXIST;Report does not exist.;
+APEXIR_ROW_TEXT_CONTAINS;Row text contains;
+APEXIR_SAVE_DEFAULT_CONFIRM;The current report settings will be used as the default for all users.;
+APEXIR_TEXT_COLOR;Text Color;
+APEXIR_TIME_MONTHS;months;
+LAYOUT.T_CONDITION_EXPR2;Expression 2;
+APEX.AUTHENTICATION.LOGIN_THROTTLE.ERROR;The login attempt has been blocked.;
+APEX.GV.ROW_ADDED;Added;
+APEX.IG.ADD;Add;
+APEX.IG.AREA;Area;
+APEX.IG.AVG;Average;
+APEX.IG.BAR;Bar;
+APEX.IG.BUBBLE;Bubble;
+APEX.IG.CHANGE_VIEW;Change View;
+APEX.IG.COLUMN_CONTEXT;Column %0;
+APEX.IG.COLUMNS;Columns;
+APEX.IG.CONTAINS;contains;
+APEX.IG.DELETE_ROWS;Delete Rows;
+APEX.IG.DISABLED;Disabled;
+APEX.IG.DOES_NOT_CONTAIN;does not contain;
+APEX.IG.DUPLICATE_ROW;Duplicate Row;
+APEX.IG.DUPLICATE_ROWS;Duplicate Rows;
+APEX.IG.FIRST;First;
+APEX.IG.FORMAT_CSV;CSV;
+APEX.IG.GROUP_BY_VIEW;Group By View;
+APEX.IG.ROW_COLUMN_CONTEXT;Row %0 Column %1;
+APEX.IG.SEARCH.ORACLE_TEXT;Search: Full Text;
+APEX.IG.SORT_ONLY_ONE_PER_COLUMN;You can define only one sort per column.;
+APEX.IG.SRV_CHANGE_MENU;Change Menu;
+APEX.IG.UNFREEZE;Unfreeze;
+APEX.IG.VISIBLE;Displayed;
+APEX.IG.X.IN_THE_LAST_MINUTE;%0 in the last minute;
+APEX.IG.X.IN_THE_LAST_WEEK;%0 in the last week;
+APEX.IG.X.IS_NULL;%0 is empty;
+APEX.IG.X.NOT_IN_THE_LAST_MONTH;%0 not in the last month;
+APEX.IG.X.NOT_IN_THE_NEXT.Y.WEEKS;%0 not in the next %1 weeks;
+APEX.IG.Z_COLUMN;Z;
+APEX.RV.EXCLUDE_NULL;Exclude Null Values;
+APEX.RV.PREV_RECORD;Previous;
+APEXIR_PIVOT_ROW_COLUMN_INVALID;Please select different row column. The HTML expression or link in the row column contains column defined as pivot or aggregate column.;
+APEXIR_NEW_CATEGORY_LABEL;New Category;
+SHOW_ALL;Show All;
+APEX.DIALOG.CLOSE;Close;
+APEX.SINCE.SHORT.WEEKS_FROM_NOW;in %0w;
+APEX.SINCE.SHORT.MINUTES_AGO;%0m;
+APEX.SINCE.SHORT.SECONDS_AGO;%0s;
+APEX.THEMES.INVALID_THEME_NUMBER;Theme number is invalid or theme is not a current UI theme.;
+WWV_FLOW_CUSTOMIZE.T_THEME_STYLE;Appearance;
+WWV_FLOW_CUSTOMIZE.T_REMOVE_STYLE;Use Application Default Style;
+WWV_FLOW_CREATE_MODEL_APP.CREATE_IG;Unable to create interactive grid page. %0;
+WWV_FLOW_DATA_EXPORT.HIGHLIGHT_COLUMN_IDX_NOT_EXIST;The column index referenced in the highlight %0 does not exist.;
+WWV_FLOW_DATA_EXPORT.PARENT_GROUP_IDX_NOT_EXIST;The parent group index referenced in %0 does not exist.;
+WWV_FLOW_DATA_EXPORT.COLUMN_BREAK_MUST_BE_IN_THE_BEGGINING;The column break needs to be in the beggining of the columns array.;
+APEX.IG.HELP.CHART;"<p>Use this dialog to define a chart which displays as a separate data view.<br> 
+Select a chart Type, configure the chart settings, and click <strong>Save.</strong></p>
+
+<p><strong>Chart Settings</strong></br>
+The chart attributes that display vary depending on the chart type. A number of attributes can be entered to define the chart. Attributes marked with a red asterisk are mandatory.</p>
+
+<p>Below are all available attributes across the different chart types (in alphabetical order):
+<ul>
+  <li>Aggregation - Select how to aggregate the associated chart values.</li> 
+  <li>Close - Select the column that contains the daily stock close price (Stock chart only).</li> 
+  <li>Decimal Places - Enter the number of decimal places to which the values are rounded.</li> 
+  <li>Direction -  In relation to the Sort By attribute, specify whether the data is sorted in ascending or descending values.</li> 
+  <li>High - Select the column that contains the high value (Range and Stock charts only).</li> 
+  <li>Label - Select the column that contains the text for each data point.</li> 
+  <li>Label Axis Title - Enter the title that displays on the label axis.</li> 
+  <li>Low - Select the column that contains the low value (Range and Stock charts only).</li> 
+  <li>Nulls - In relation to the Sort By attribute, specify how you want records with null values to be sorted in relation to records with non null values.</li> 
+  <li>Open - Select the column that contains the daily stock openning price (Stock chart only).</li> 
+  <li>Orientation - Select whether the chart elements, such as bars, display vertically or horizontally.</li> 
+  <li>Series - Select the column used for defining your multi-series dynamic query.</li> 
+  <li>Stack - Specify whether the data items are stacked.</li> 
+  <li>Sort By - Select whether the chart is sorted by the label or the value(s).</li> 
+  <li>Target - Select the column to be used for defining the target value on this chart. When set, the Value attribute defines the filled area within the slice and the Target represents the value of the whole slice (Funnel chart only).</li> 
+  <li>Value - Select the column that contains the data to be plotted.</li> 
+  <li>Value Axis Title - Enter the title that displays on the value axis.</li> 
+  <li>Volume - Select the column that contains the daily stock volume (Stock chart only).</li> 
+  <li>X - Select the column that contains the x-axis value for this chart (Bubble and Scatter charts only).</li> 
+  <li>Y - Select the column that contains the y-axis value for this chart (Bubble and Scatter charts only).</li> 
+  <li>Z - Select the column that contains the bar width or bubble radius (Bar, Bubble, and Range charts only)</li> 
+</p>";
+APEX.IG.HELP.FLASHBACK;"<p>Use this dialog to view the data as it existed at a previous point in time.</p>
+<p>Enter the number of minutes in the past to execute the flashback query.</p>";
+APEX.IG.ICON;Icon;
+APEX.IG.LABEL_COLUMN;Label;
+APEX.IG.LAST.X_WEEKS;Last %0 Weeks;
+APEX.IG.LESS_THAN_OR_EQUALS;less than or equals;
+APEXIR_INACTIVE_SETTINGS;%0 inactive settings;
+APEXIR_NOT_VALID_EMAIL;Not a valid email address.;
+APEXIR_PIVOT_AGG_NOT_NULL;Aggregate must be specified.;
+APEXIR_PIVOT_COLUMN_NOT_NULL;Pivot column must be specified.;
+APEXIR_ROW_COLUMN_N;Row Column %0;
+APEXIR_CHECK_ALL;Check All;
+APEXIR_COMPUTATION_EXPRESSION;Computation Expression;
+APEXIR_DELETE_DEFAULT_REPORT;Delete Default Report;
+APEXIR_DUPLICATE_PIVOT_COLUMN;Duplicate pivot column. Pivot column list must be unique.;
+APEXIR_EDIT_PIVOT;Edit Pivot;
+APEXIR_SELECT_ROW;Select Row;
+APEXIR_UNGROUPED_COLUMN;Ungrouped Column;
+APEXIR_X_MONTHS;%0 months;
+APEX.IG.MIN_OVERALL;Overall Minimum;
+APEX.IG.NEXT.WEEK;Next Week;
+APEX.IG.ONE_MINUTE_AGO;1 minute ago;
+APEX.IG.OPERATOR;Operator;
+APEX.IG.RESET;Reset;
+REPORT;Report;
+APEXIR_PRIVATE;Private;
+APEX.NUMBER_FIELD.VALUE_INVALID;#LABEL# must be Numeric.;
+APEXIR_3D;3D;
+APEXIR_AGGREGATE;Aggregate;
+APEXIR_AGG_COUNT;Count;
+APEXIR_ALL;All;
+APEXIR_BLUE;blue;
+APEXIR_CHART;Chart;
+APEXIR_CHOOSE_DOWNLOAD_FORMAT;Choose report download format;
+APEXIR_COMPARISON_IS_NULL;is null;
+APEXIR_COMPUTATION_FOOTER_E3;CASE WHEN A = 10 THEN B + C ELSE B END;
+APEXIR_DIRECTION;Direction;
+APEXIR_DISPLAYED_COLUMNS;Displayed Columns;
+APEXIR_EMAIL_SUBJECT;Subject;
+APEXIR_EXAMPLES_WITH_COLON;Examples:;
+APEXIR_FORMAT;Format Mask;
+APEXIR_HELP_CONTROL_BREAK;Used to create a break group on one or several columns. This pulls the columns out of the Interactive Report and displays them as a master record.;
+APEXIR_HELP_REPORT_SETTINGS;If you have customized your Interactive Report, the report settings will be displayed below the Search Bar and above the report. If you have saved customized reports, they will be shown as tabs. You can access your alternate views by clicking the tabs. Below the tabs are the report settings for the current report. This area can be collapsed and expanded using the icon on the left.<p/>For each report setting, you can:<ul><li><b>Edit</b> by clicking the name.</li><li><b>Disable/Enable</b> by unchecking or checking the Enable/Disable check box. This is used to temporarily turn off and on the setting.</li><li><b>Remove</b> by click the Remove icon. This permanently removes the setting.</li></ul><p/>If you have created a chart, you can toggle between the report and chart using the Report View and Chart View links shown on the right. If you are viewing the chart, you can also use the Edit Chart link to edit the chart settings.;
+APEXIR_HIDE_COLUMN;Hide Column;
+APEXIR_INTERACTIVE_REPORT_HELP;Interactive Report Help;
+APEXIR_INVALID;Invalid;
+APEXIR_IS_IN_THE_NEXT;%0 is in the next %1;
+APEXIR_LAST_WEEK;Last Week;
+APEXIR_NEW_AGGREGATION;New Aggregation;
+APEXIR_NEXT;"&gt;";
+APEXIR_NEXT_X_DAYS;Next %0 Days;
+APEXIR_NULLS_ALWAYS_FIRST;Nulls Always First;
+APEXIR_PERCENT_TOTAL_COUNT;Percent of Total Count;
+APEXIR_PRIMARY_REPORT;Primary Report;
+APEXIR_RENAME_REPORT;Rename Report;
+APEXIR_RESET_CONFIRM;Restore report to the default settings.;
+APEXIR_ROW;Row;
+APEXIR_ROW_OF;Row %0 of %1;
+APEXIR_SELECT_CATEGORY;- Select Category -;
+APEXIR_SELECT_FUNCTION;- Select Function -;
+APEXIR_SORT_ASCENDING;Sort Ascending;
+APEXIR_SORT_COLUMN;Sort Column;
+APEXIR_SUBSCRIPTION_ENDING;Ending;
+APEXIR_SUBSCRIPTION_STARTING_FROM;Starting From;
+APEXIR_TOP;Top;
+APEXIR_UP;Up;
+APEXIR_VIEW_REPORT;View Report;
+APEXIR_X_MINS;%0 minutes;
+APEXIR_YES;Yes;
+IR_AS_NAMED_REPORT;As Named Report;
+APEX.GV.LAST_PAGE;Last;
+APEX.GV.ROW_CHANGED;Changed;
+APEX.IG.ALL;All;
+APEX.IG.AUTO;Auto;
+APEX.IG.AXIS_LABEL_TITLE;Label Axis Title;
+APEX.IG.AXIS_VALUE_TITLE;Value Axis Title;
+APEX.IG.CHANGES_SAVED;Changes saved;
+APEX.IG.COLOR_BLUE;Blue;
+APEX.IG.COLOR_YELLOW;Yellow;
+APEX.IG.COLUMN;Column;
+APEX.IG.COUNT;Count;
+APEX.IG.COUNT_OVERALL;Overall Count;
+APEX.IG.CREATE_X;Create %0;
+APEX.IG.DAYS;days;
+APEX.IG.DELETE;Delete;
+APEX.IG.DESCENDING;Descending;
+APEX.IG.DOES_NOT_START_WITH;does not start with;
+APEX.IG.EDIT;Edit;
+APEX.IG.EMAIL_BCC;Blind Copy (bcc);
+APEX.IG.EXAMPLE;Example;
+APEX.IG.FORMATMASK;Format Mask;
+APEX.IG.FUNCTIONS_AND_OPERATORS;Functions and Operators;
+APEX.IG.HD_TYPE;Condition Type;
+APEX.IG.SAVED_REPORT_DEFAULT;Default;
+APEX.IG.SCATTER;Scatter;
+APEX.IG.SEARCH.COLUMN;Search: %0;
+APEX.IG.SELECT;- Select -;
+APEX.IG.SHOW_OVERALL_VALUE;Show Overall Value;
+APEX.IG.VALUE;Value;
+APEX.IG.VALUE_COLUMN;Value;
+APEX.IG.VIEW;View;
+APEX.IG.WEEKS;weeks;
+APEX.IG.X.IN.Y;%0 in %1;
+APEX.IG.X.IN_THE_LAST.Y.MONTHS;%0 in the last %1 months;
+APEX.IG.X.IN_THE_LAST_YEAR;%0 in the last year;
+APEX.IG.X.IN_THE_NEXT.Y.YEARS;%0 in the next %1 years;
+APEX.IG.X.NOT_EQUALS.Y;%0 not equals %1;
+APEX.IG.X.NOT_IN_THE_LAST.Y.HOURS;%0 not in the last %1 hours;
+APEX.IG.X.NOT_IN_THE_LAST_HOUR;%0 not in the last hour;
+APEX.IG.X.NOT_IN_THE_LAST_WEEK;%0 not in the last week;
+APEX.IG.Y_COLUMN;Y;
+APEX.RV.SETTINGS_MENU;Settings Menu;
+APEXIR_MULTIIR_PAGE_REGION_STATIC_ID_REQUIRED;Region Static ID must be specified as the page contains multiple interactive reports.;
+APEX.WAIT_UNTIL_PAGE_LOADED;Please wait until the page is fully loaded and try again.;
+APEX.ACTIVE_STATE;(Active);
+APEX.UI.BACK_TO_TOP;Start of page;
+WWV_FLOW_WEB_SERVICES.AUTHENTICATION_FAILED;Authentication failed.;
+APEX.ERROR.PAGE_NOT_AVAILABLE;Sorry, this page isn't available;
+APEX.DIALOG.SAVE;Save;
+APEX.DIALOG.OK;OK;
+APEX.MENU.CURRENT_MENU;current;
+APEX.IG.HELP.COLUMNS_TITLE;Columns Help;
+APEX.IG.HELP.GROUP_BY_TITLE;Group By Help;
+APEX.IG.HELP.HIGHLIGHT_TITLE;Highlight Help;
+APEX.IG.INACTIVE_SETTINGS;Inactive Settings;
+APEX.IG.LAST.DAY;Last Day;
+APEX.IG.LAST.X_YEARS;Last %0 Years;
+APEX.IG.LAYOUT_USEGROUPFOR;Use Group For;
+APEX.IG.LESS_THAN;less than;
+APEX.IG.MAX;Maximum;
+APEXIR_GROUP_BY_SORT_ORDER;Group By Sort Order;
+APEXIR_INVALID_SETTING;1 invalid setting;
+APEXIR_PIVOT_COLUMNS;Pivot Columns;
+APEXIR_SEARCH_COLUMN;Search: %0;
+APEXIR_ADD_FUNCTION;Add Function;
+APEXIR_ADD_GROUP_BY_COLUMN;Add Group By Column;
+APEXIR_SELECT_PIVOT_COLUMN;- Select Pivot Column -;
+APEXIR_TOGGLE;Toggle;
+APEXIR_X_DAYS;%0 days;
+APEXIR_HELP_GROUP_BY;You can define one Group By view per saved report. Once defined, you can switch between the group by and report views using view icons on the Search bar. To create a Group By view, you select: <p></p><ul> <li>the columns on which to group</li> <li>the columns to aggregate along with the function to be performed (average, sum, count, etc.)</li> </ul>;
+APEX.IG.NAMED_REPORT;Named Report;
+APEX.IG.NEXT.HOUR;Next Hour;
+APEX.IG.NEXT.MINUTE;Next Minute;
+APEX.IG.NEXT.X_DAYS;Next %0 Days;
+APEX.IG.NEXT.X_HOURS;Next %0 Hours;
+APEX.IG.NOT_BETWEEN;not between;
+APEX.IG.PRIMARY_DEFAULT;Primary Default;
+APEX.IG.RANGE;Range;
+APEX.IG.REPORT.DELETED;Report deleted;
+MAXIMIZE;Maximize;
+APEX.SESSION_STATE.SSP_VIOLATION;Session state protection violation: This may be caused by manual alteration of a URL containing a checksum or by using a link with an incorrect or missing checksum. If you are unsure what caused this error, please contact the application administrator for assistance.;
+FLOW.SINGLE_VALIDATION_ERROR;1 error has occurred;
+INVALID_CREDENTIALS;Invalid Login Credentials;
+TOTAL;Total;
+APEXIR_AGGREGATE_DESCRIPTION;Aggregates are displayed after each control break and at the end of the report.;
+APEXIR_BGCOLOR;Background Color;
+APEXIR_COMPARISON_CONTAINS;contains;
+APEXIR_COMPARISON_IS_NOT_NULL;is not null;
+APEXIR_COMPARISON_NOT_LIKE;not like;
+APEXIR_DELETE;Delete;
+APEXIR_DELETE_CONFIRM;Would you like to delete these report settings?;
+APEXIR_DOWN;Down;
+APEXIR_DO_NOT_AGGREGATE;- Do not aggregate -;
+APEXIR_EMAIL_BODY;Body;
+APEXIR_FILTERS;Filters;
+APEXIR_FILTER_TYPE;Filter Type;
+APEXIR_FLASHBACK;Flashback;
+APEXIR_HELP_FILTER;Used to add or modify the where clause on the query. You first select a column (it does not need to be one that is displayed), select from a list of standard Oracle operators (=, !=, not in, between), and enter an expression to compare against. The expression is case sensitive and you can use % as a wildcard (for example, STATE_NAME like A%).;
+APEXIR_HIGHLIGHT_WHEN;Highlight When;
+APEXIR_IS_NOT_IN_THE_LAST;%0 is not in the last %1;
+APEXIR_IS_NOT_IN_THE_NEXT;%0 is not in the next %1;
+APEXIR_LAST_X_YEARS;Last %0 Years;
+APEXIR_LINE;Line;
+APEXIR_MOVE_ALL;Move All;
+APEXIR_NEXT_WEEK;Next Week;
+APEXIR_OTHER;Other;
+APEXIR_PERCENT_OF_TOTAL_COUNT_X;Percent of Total Count %0 (%);
+APEXIR_REMOVE_FLASHBACK;Remove Flashback;
+APEXIR_REMOVE_HIGHLIGHT;Remove Highlight;
+APEXIR_SAVE;Save;
+APEXIR_SEARCH;Search;
+APEXIR_SORT;Sort;
+APEXIR_SPACE_AS_IN_ONE_EMPTY_STRING;space;
+APEXIR_TIME_DAYS;days;
+APEXIR_UNAUTHORIZED;Unauthorized;
+APEXIR_VALUE_AXIS_TITLE;Axis Title for Value;
+APEXIR_VIEW_GROUP_BY;View Group By;
+APEXIR_WEEK;Week;
+APEXIR_X_WEEKS;%0 weeks;
+APEXIR_YELLOW;yellow;
+APEX.AUTHENTICATION.LOGIN_THROTTLE.COUNTER;"Please wait <span id=apex_login_throttle_sec"">%0</span> seconds to login again.""";
+APEX.ITEM_TYPE.YES_NO.INVALID_VALUE;#LABEL# must match to the values %0 and %1.;
+APEX.POPUP_LOV.ICON_TEXT;Popup List of Values: %0.;
+APEX.GV.SORT_DESCENDING_ORDER;Sort Descending %0;
+APEX.IG.AGGREGATE;Aggregate;
+APEX.IG.AND;and;
+APEX.IG.ASCENDING;Ascending;
+APEX.IG.CASE_SENSITIVE_WITH_BRACKETS;(Case Sensitive);
+APEX.IG.COLOR_RED;Red;
+APEX.IG.COMPLEX;Complex;
+APEX.IG.COUNT_DISTINCT_OVERALL;Overall Count Distinct;
+APEX.IG.DEFAULT_SETTINGS;Default Settings;
+APEX.IG.DELETE_REPORT_CONFIRM;Are you sure you would like to delete this report?;
+APEX.IG.DELETE_ROW;Delete Row;
+APEX.IG.DIRECTION;Direction;
+APEX.IG.DUPLICATE_AGGREGATION;Duplicate Aggregation;
+APEX.IG.EMAIL_BODY;Message;
+APEX.IG.EMAIL_SENT;Email sent.;
+APEX.IG.EXPRESSION;Expression;
+APEX.IG.FD_TYPE;Type;
+APEX.IG.FLASHBACK;Flashback;
+APEX.IG.HELP.ACTIONS.EDITING_HEADING;Editing Capabilities;
+APEX.IG.HELP.ACTIONS_TITLE;Interactive Grid Help;
+APEX.IG.ROW;Row;
+APEX.IG.ROW_ACTIONS;Row Actions;
+APEX.IG.ROW_ACTIONS_FOR;Actions for row %0;
+APEX.IG.SEARCH.ALL_COLUMNS;Search: All Text Columns;
+APEX.IG.SEL_ACTIONS;Selection Actions;
+APEX.IG.STACK;Stack;
+APEX.IG.SUBSCRIPTION;Subscription;
+APEX.IG.TYPE;Type;
+APEX.IG.VARCHAR2;Text;
+APEX.IG.VERTICAL;Vertical;
+APEX.IG.VOLUME_COLUMN;Volume;
+APEX.IG.X.IN_THE_LAST.Y.HOURS;%0 in the last %1 hours;
+APEX.IG.X.IN_THE_NEXT_HOUR;%0 in the next hour;
+APEX.IG.X.NOT_BETWEEN.Y.AND.Z;%0 not between %1 and %2;
+APEX.IG_FORMAT_SAMPLE_1;Monday, 12 January, 2016;
+APEX.IG_FORMAT_SAMPLE_2;January;
+APEX.IG_FORMAT_SAMPLE_3;16 hours ago;
+APEX.RV.NOT_GROUPED_LABEL;Other Columns;
+APEXIR_REGION_STATIC_ID_DOES_NOT_EXIST;Region Static ID %0 does not exist.;
+APEX.ACTIONS.TOGGLE;Toggle %0;
+APEX.PROCESSING;Processing;
+WWV_FLOW_WEB_SERVICES.UNSUPPORTED_OAUTH_TOKEN;Server responded with unsupported OAuth token type.;
+LAYOUT.T_#EXPAND_COLLAPSE_NAV_LABEL#;Label for Expand / Collapse Navigation;
+APEX.TABS.NEXT;Next;
+APEX.DIALOG.HELP;Help;
+APEX.SINCE.SHORT.MINUTES_FROM_NOW;in %0m;
+APEX.SINCE.SHORT.DAYS_FROM_NOW;in %0d;
+APEX.SINCE.SHORT.MONTHS_AGO;%0mo;
+APEX.SINCE.SHORT.DAYS_AGO;%0d;
+APEX.DIALOG.CANCEL;Cancel;
+APEX.CORRECT_ERRORS;Correct errors before saving.;
+WWV_FLOW_DATA_EXPORT.COLUMN_GROUP_IDX_NOT_EXIST;The column group index referenced in %0 does not exist.;
+LAYOUT.CHART;Chart;
+APEX.IG.HELP.CHART_TITLE;Chart Help;
+APEX.IG.HELP.CONTROL_BREAK;"<p>Use this dialog to define a control break on one or more columns.</p>
+
+<p><strong>Control Break List</strong><br>
+The Control Break list displays defined control breaks. Disable an existing control break column by deselecting it.<br>
+Click Add ( &plus; ) to include a new column in the control break, or Delete ( &minus; ) to remove an existing column from the control break.<br>
+To reorder columns, click Move Up ( &uarr; ) or Move Down ( &darr; ) to move the selected column up and down relative to other columns.</p>
+
+<p><strong>Control Break Settings</strong><br>
+Use the form to define the control break column.<br>
+Selected a control break column, the sort direction, and how to order null columns (columns with no value).</p>
+
+<p><em>Note: When viewing the interactive grid, you can define a control break by clicking a Column Heading and selecting the control break icon.</em></p>";
+APEX.IG.HELP.DOWNLOAD;"<p>Use this dialog to download all the current rows to an external file. The file will contain only the currently displayed columns, using any filters and sorts applied to the data.</p>
+
+<p>Select the file format and click Download.<br>
+Note: CSV will not include text formatting such as aggregates and control breaks.</p>
+
+<p>To email the file, select Send as Email and enter the email details (Recipient, Subject and Message).</p>";
+APEX.IG.HELP.DOWNLOAD_TITLE;Download Help;
+APEX.IG.HELP.FILTER;"<p>Use this dialog to configure data filters which limit the rows returned.</p>
+
+<p><strong>Filter List</strong><br>
+The Filter list displays defined filters. Disable an existing filter by deselecting it.<br>
+Click Add ( &plus; ) to create a new filter, or Delete ( &minus; ) to remove an existing filter.</p>
+
+<p><strong>Filter Settings</strong><br>
+Use the form to define the filter properties.<br>
+Select the appropriate filter type:<br>
+&nbsp;&nbsp;&nbsp;Row - filter for a term in any filterable column.<br>
+&nbsp;&nbsp;&nbsp;Column - filter a specific column with a specified operator and value.</p>
+
+<p><em>Note: When viewing the interactive grid, you can define row filters by typing directly into the Search field. Click Select Columns to Search to limit the search to a specific column. Alternately, open a Column Heading menu and select a value to create a column filter.</em></p>";
+APEX.IG.HELP.FILTER_TITLE;Filter Help;
+APEX.IG.HELP.SORT;"<p>Use this dialog to set the display order.</p>
+
+<p><strong>Sort List</strong><br>
+The Sort dialog displays a list of configured sorting rules.<br>
+Click Add ( &plus; ) to create a sort column, or Delete ( &minus; ) to remove a sort column.<br>
+Click Move Up ( &uarr; ) and Move Down ( &darr; ) to move the selected sort column up and down relative to the other sort columns.</p>
+
+<p><strong>Sort Settings</strong><br>
+Select a sort column, the sort direction, and how to order null columns (columns with no value).</p>
+
+<p><em>Note: Data can be sorted by columns which are not displayed; however, not all columns may be sortable.</em><br>
+<em>Displayed columns can be sorted by pressing the up (ascending) or down (descending) arrows at the end of the column headings. To add a subsequent column to an existing sort, hold the Shift key and click the up or down arrow.</em></p>";
+APEX.IG.HELP.SUBSCRIPTION_TITLE;Subscription Help;
+APEX.IG.HORIZONTAL;Horizontal;
+APEX.IG.IN_THE_LAST;in the last;
+APEX.IG.LAST.X_MINUTES;Last %0 Minutes;
+APEXIR_GROUP_BY_COL_NOT_NULL;Group by column must be specified;
+APEXIR_INVALID_FILTER_QUERY;Invalid filter query;
+APEXIR_PIVOT_AGG_NOT_ON_ROW_COL;You cannot aggregate on a column selected to as row column.;
+APEXIR_PIVOT_MAX_ROW_CNT;The maximum row count for a Pivot query limits the number of rows in the base query, not the number of rows displayed. Your base query exceeds the maximum row count of %0. Please apply a filter to reduce the number of records in your base query.;
+APEXIR_ROW_COLUMN_NOT_NULL;Row column must be specified.;
+APEXIR_ROW_FILTER;Row Filter;
+APEXIR_ADD_ROW_COLUMN;Add Row Column;
+APEXIR_EDIT;Edit;
+APEXIR_SUBSCRIPTION;Subscription;
+APEXIR_TABLE_SUMMARY;Region = %0, Report = %1, View = %2, Displayed Rows Start = %3, Displayed Rows End = %4, Total Rows = %5;
+APEXIR_VIEW_PIVOT;View Pivot;
+IR_AS_DEFAULT_REPORT_SETTING;As Default Report Settings;
+APEXIR_GROUP_BY_MAX_ROW_CNT;The maximum row count for a Group By query limits the number of rows in the base query, not the number of rows displayed. Your base query exceeds the maximum row count of %0. Please apply a filter to reduce the number of records in your base query.;
+APEX.IG.MEDIAN;Median;
+APEX.IG.MINUTES;minutes;
+APEX.IG.MINUTES_AGO;Minutes ago;
+APEX.IG.NEXT.MONTH;Next Month;
+APEX.IG.PLACEHOLDER_INVALUES;"Separate values with %0""""";
+APEX.IG.POSITION_START;Start;
+APEX.IG.REPORT.SAVED.PUBLIC;Public report saved for all users;
+APEX.IG.REPORT_DATA_AS_OF_ONE_MINUTE_AGO;Report data as of 1 minute ago;
+APEX.IG.REPORT_SETTINGS;Report Settings;
+WELCOME_USER;;
+APEXIR_LAST_HOUR;Last Hour;
+APEXIR_NAME;Name;
+APEX.DATEPICKER_VALUE_LESS_MIN_DATE;#LABEL# is less than specified minimum date %0.;
+SINCE_SECONDS_AGO;%0 seconds ago;
+SINCE_YEARS_AGO;%0 years ago;
+APEXIR_ADD;Add;
+APEXIR_AGGREGATION;Aggregation;
+APEXIR_ASCENDING;Ascending;
+APEXIR_AS_OF;As of %0;
+APEXIR_CLEAR;clear;
+APEXIR_COLUMN_HEADING;Column Heading;
+APEXIR_COLUMN_HEADING_MENU;Column Heading Menu;
+APEXIR_COMPARISON_DOESNOT_CONTAIN;does not contain;
+APEXIR_COMPARISON_IS_IN_LAST;is in the last;
+APEXIR_COMPARISON_NOT_IN;not in;
+APEXIR_CONTROL_BREAKS;Control Breaks;
+APEXIR_COUNT_DISTINCT;Count Distinct;
+APEXIR_DAILY;Daily;
+APEXIR_DATE;Date;
+APEXIR_DAY;Day;
+APEXIR_DISPLAY;Display;
+APEXIR_DISPLAYED;Displayed;
+APEXIR_EDIT_FILTER;Edit Filter;
+APEXIR_EMAIL_NOT_CONFIGURED;Email has not been configured for this application. Please contact your administrator.;
+APEXIR_ENABLE;Enable;
+APEXIR_ENABLED;Enabled;
+APEXIR_EXPRESSION;Expression;
+APEXIR_FUNCTION;Function;
+APEXIR_GROUP_BY_COLUMN;Group By Column;
+APEXIR_HELP_AGGREGATE;Aggregates are mathematical computations performed against a column. Aggregates are displayed after each control break and at the end of the report within the column they are defined.<p/><ul><li><b>aggregation</b> allows you to select a previously defined aggregation to edit.</li><li><b>Function</b> is the function to be performed (e.g. SUM, MIN).</li><li><b>Column</b> is used to select the column to apply the mathematical function to. Only numeric columns will be displayed.</li></ul>;
+APEXIR_HIGHLIGHTS;Highlights;
+APEXIR_INVALID_COMPUTATION;Invalid computation expression. %0;
+APEXIR_MAX_X;Maximum %0;
+APEXIR_NEXT_X_HOURS;Next %0 Hours;
+APEXIR_NEXT_YEAR;Next Year;
+APEXIR_NO_END_DATE;- No End Date -;
+APEXIR_NULL_SORTING;Null Sorting;
+APEXIR_PRIMARY;Primary;
+APEXIR_ROWS_PER_PAGE;Rows Per Page;
+APEXIR_SELECT_COLUMNS;Select Columns;
+APEXIR_STATUS;Status;
+APEXIR_TIME_HOURS;hours;
+APEXIR_TIME_WEEKS;weeks;
+APEXIR_VIEW_DETAIL;View Detail;
+APEXIR_WEEKLY;Weekly;
+APEX.GV.ROW_DELETED;Deleted;
+APEX.GV.SELECT_PAGE_N;Page %0;
+APEX.GV.SORT_ASCENDING;Sort Ascending;
+APEX.GV.SORT_ASCENDING_ORDER;Sort Ascending %0;
+APEX.GV.SORT_OFF;Don't Sort;
+APEX.IG.ADD_ROW;Add Row;
+APEX.IG.AGGREGATION;Aggregation;
+APEX.IG.COUNT_DISTINCT;Count Distinct;
+APEX.IG.DEFAULT_TYPE;Default Type;
+APEX.IG.DONUT;Donut;
+APEX.IG.EDIT_GROUP_BY;Edit Group By;
+APEX.IG.EQUALS;equals;
+APEX.IG.FILTERS;Filters;
+APEX.IG.GRID;Grid;
+APEX.IG.HELP;Help;
+APEX.IG.HELP.ACTIONS.EDITING;"<p>You can insert, update, and delete data directly within this interactive grid.</p>
+
+<p>Insert a new row by clicking the Add Row button.</p>
+
+<p>Edit existing data by double-clicking a specific cell. For larger editing work, click Edit to enter editing mode. In editing mode, you can single-click or use the keyboard to edit specific cells.</p>
+
+<p>Use the Change menu to duplicate and delete rows. To enable the Change menu, use the check boxes to select one or more rows.</p>
+
+<p>Duplicate a selected row by clicking the Change menu and selecting Duplicate Rows. Delete a selected row by clicking the Change menu and selecting Delete Row.</p>";
+APEX.IG.HELP.ACTIONS.INTRO_HEADING;Overview;
+APEX.IG.HELP.AGGREGATE;"<p>Use this dialog to aggregate columns. Aggregated values display at the bottom of the data, or if Control Breaks are defined, at the bottom of each break.</p>
+
+<p><strong>Aggregation List</strong><br>
+The Aggregation list displays defined aggregations. Disable an existing aggregation by deselecting it.<br>
+Click Add ( &plus; ) to create a new aggregation, or Delete ( &minus; ) to remove an existing aggregation.</p>
+
+<p><strong>Aggregation Settings</strong><br>
+Use the form on the right to define the aggregation.<br>
+Select the Column name and Aggregation type.<br>
+Optionally, enter a tooltip for the aggregation.<br>
+If you have defined a Control Break, selecting <strong>Show Overall Value</strong> displays the overall average, total, or similar value at the bottom of the data.</p>
+
+<p><em>Note: Access the Aggregation dialog in the Actions menu or by clicking the column heading and sum ( &sum; ).</em></p>";
+APEX.IG.ROWS_PER_PAGE;Rows Per Page;
+APEX.IG.SEND_AS_EMAIL;Send as Email;
+APEX.IG.SERIES_COLUMN;Series;
+APEX.IG.SORT_BY;Sort By;
+APEX.IG.UNIT;Unit;
+APEX.IG.X.DOES_NOT_CONTAIN.Y;%0 does not contain %1;
+APEX.IG.X.EQUALS.Y;%0 equals %1;
+APEX.IG.X.IN_THE_NEXT.Y.MINUTES;%0 in the next %1 minutes;
+APEX.IG.X.IN_THE_NEXT.Y.WEEKS;%0 in the next %1 weeks;
+APEX.IG.X.IN_THE_NEXT_MINUTE;%0 in the next minute;
+APEX.IG.X.MINUTES_AGO;%0 minutes ago;
+APEX.IG.X.NOT_IN_THE_LAST.Y.WEEKS;%0 not in the last %1 weeks;
+APEX.IG.X.NOT_IN_THE_LAST_DAY;%0 not in the last day;
+APEX.IG.X.NOT_IN_THE_LAST_YEAR;%0 not in the last year;
+APEX.IG.X.NOT_LIKE.Y;%0 not like %1;
+APEX.RV.INSERT;Add;
+APEX.RV.DELETE;Delete;
+APEX.SUCCESS_MESSAGE_HEADING;Success Message;
+APEX.TEMPLATE.EXPAND_COLLAPSE_NAV_LABEL;Expand / Collapse Navigation;
+APEX.SINCE.SHORT.SECONDS_FROM_NOW;in %0s;
+APEX.SINCE.SHORT.MONTHS_FROM_NOW;in %0mo;
+APEX.SINCE.SHORT.HOURS_AGO;%0h;
+UPGRADE_CANDLESTICK_CHART;After upgrading, ensure the series attribute Label Column is mapped to a Date / Timestamp column.;
+APEX.MENU.PROCESSING;Loading;
+APEX.VALUE_REQUIRED;Value Required;
+REGION_NAME.NATIVE_JET_CHART;Chart;
+APEX.IG.HELP.COMPUTE;"<p>Use this dialog to define additional columns based on mathematical and functional computations performed against existing columns.</p>
+
+<p><strong>Computation List</strong><br>
+The Computation list displays defined computations. Disable an existing computation by deselecting it.<br>
+Click Add ( &plus; ) to add a new computation, or Delete ( &minus; ) to remove an existing computation.</p>
+
+<p><strong>Computation Settings</strong><br>
+Use the form to define the computation.<br>
+Enter the column details such as heading, label, and select alignment settings.<br> 
+Use the Expression textarea to enter the column(s) and associated functions for the computation.<br>
+Select the appropriate data type, and optionally a format mask, for the new column.</p>";
+APEX.IG.HELP.COMPUTE_TITLE;Compute Help;
+APEX.IG.HELP.FLASHBACK_TITLE;Flashback Help;
+APEX.IG.HIDE;Hide;
+APEX.IG.IN;in;
+APEX.IG.LAST.HOUR;Last Hour;
+APEX.IG.LAST.X_DAYS;Last %0 Days;
+APEX.IG.LISTAGG;Listagg;
+APEX.IG.MAX_OVERALL;Overall Maximum;
+APEXIR_GROUP_BY_SORT;Group By Sort;
+APEXIR_REPORT_DISPLAY_COLUMN_LIMIT_REACHED;The number of display columns in the report reached the limit. Please click Select Columns under Actions menu to minimize the report display column list.;
+APEXIR_ROW_COLUMNS;Row Columns;
+APEXIR_CONTROL_BREAK_COLUMNS;Control Break Columns;
+APEXIR_EMAIL_REQUIRED;Email Address must be specified.;
+APEXIR_SORT_ORDER;Sort Order;
+APEX.IG.MIN;Minimum;
+APEX.IG.NO_DATA_FOUND;No data found;
+APEX.IG.NOT_IN;not in;
+APEX.IG.NOT_IN_THE_NEXT;not in the next;
+APEX.IG.PIVOT_VIEW;Pivot View;
+APEX.IG.PRIMARY_REPORT;Primary Report;
+APEX.IG.REFRESH;Refresh;
+APEX.IG.REFRESH_ROW;Refresh Row;
+APEX.CLOSE_NOTIFICATION;Close Notification;
+APEX.PAGE.DUPLICATE_SUBMIT;This page was already submitted and can not be re-submitted.;

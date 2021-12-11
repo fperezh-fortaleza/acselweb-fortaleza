@@ -1,0 +1,8 @@
+insert into aplicacion
+select 'ACSELWEB','Fortaleza Web','N','N','ACT',null,'02','','' from dual union
+select 'AREATEC','Área Técnica','N','N','ACT',null,'02','','fa-calculator' from dual union
+select 'MANTCLI','Mantenimiento de Clientes','N','N','ACT',null,'02','20','' from dual union
+select 'OPCIONES','Mantenimiento de Opciones','N','N','ACT',null,'02','5','' from dual union
+select 'AREASIS','Área de Sistemas','N','N','ACT',null,'02','','fa-database-chart' from dual union
+select 'MENUDINA','Menú Configurable','N','N','ACT',null,'02','4','' from dual union
+select 'COTIZA','Cotizaciones','N','N','ACT',null,'02','12','' from dual
