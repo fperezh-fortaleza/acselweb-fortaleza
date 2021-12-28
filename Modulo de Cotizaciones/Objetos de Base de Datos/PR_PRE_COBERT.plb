@@ -88,7 +88,8 @@ create or replace PACKAGE BODY       pr_pre_cobert AS
                       cCodCobert   VARCHAR2,
                       cParam       VARCHAR2,
                       nIdeAseg     NUMBER,
-                      nIdeCobert   NUMBER) RETURN NUMBER IS
+                      nIdeCobert   NUMBER,
+                      nIdeCotiza NUMBER DEFAULT NULL) RETURN NUMBER IS
 
         nSumaAseg       NUMBER(14, 2) := 0;
         cValEst1        VARCHAR2(3);
@@ -931,6 +932,21 @@ create or replace PACKAGE BODY       pr_pre_cobert AS
                                                       cCodCobert,
                                                       cParam,
                                                       nIdeAseg);
+        END IF;
+        /*
+        || Verificar si se invoca desde el módulo de Cotizacion - Apex
+        */
+        IF nIdeCotiza IS NOT NULL AND NVL(nSumaAseg,0) = 0 THEN
+           -- Buscar valor del vehiculo
+           BEGIN
+             SELECT valorveh
+               INTO nSumaAseg
+               FROM cot_datos_particulares_auto
+              WHERE idcotizacion = nIdeCotiza;
+           EXCEPTION
+              WHEN NO_DATA_FOUND THEN
+                   nSumaAseg := 0;
+           END;
         END IF;
         RETURN(nSumaAseg);
     END;

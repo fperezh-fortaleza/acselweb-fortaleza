@@ -3,7 +3,7 @@ create or replace PACKAGE PR_PRE_COBERT AS
 FUNCTION  PRE_SUMA(nIdePol NUMBER,nNumCert NUMBER,cCodProd VARCHAR2,
                    cCodPlan VARCHAR2,cRevPlan VARCHAR2,cCodRamoCert VARCHAR2,
                    cCodCobert VARCHAR2, cParam VARCHAR2,nIdeAseg NUMBER,
-                   nIdeCobert NUMBER) RETURN NUMBER;
+                   nIdeCobert NUMBER, nIdeCotiza NUMBER DEFAULT NULL) RETURN NUMBER;
 FUNCTION  PRE_TASA(nIdePol NUMBER,nNumCert NUMBER,cCodProd VARCHAR2,
                    cCodPlan VARCHAR2,cRevPlan VARCHAR2,cCodRamoCert VARCHAR2,
                    cCodCobert VARCHAR2, cParam VARCHAR2,nAsegurado NUMBER,
