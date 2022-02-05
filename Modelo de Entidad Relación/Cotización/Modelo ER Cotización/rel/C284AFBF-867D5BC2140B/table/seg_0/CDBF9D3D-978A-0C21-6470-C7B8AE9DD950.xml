@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDBF9D3D-978A-0C21-6470-C7B8AE9DD950" name="COT_PLANTILLA_REQUISITO">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:37:52 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCotPlantiReq" id="7DAC714B-ED1F-ED41-2A0D-5FD2EEB160B2">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:38:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación Unica del Requisito de la Plantilla.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCotizaPlantilla" id="5991B79F-57FB-F458-ECBC-523275784C66">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:40:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación de la Plantilla de Cotización]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6E9D0B-ABD8-BE5C-2D8B-38B7BC65AE29" referredColumn="E5A0E0AD-61EE-3216-0849-29611ECEAC9A"/>
+</associations>
+</Column>
+<Column name="CodRamo" id="8C6069AB-D648-1754-87CF-C3AEE5647F25">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-10 07:12:23 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodReq" id="4C22275A-250E-0E84-7960-CE7B9887C327">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:40:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código del Requisito]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IndOblig" id="F3614526-AA15-D6D2-4E2C-1BB3FE94C11B">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:41:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador de Obligatoria o no del Requisito.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="E9D9DFAA-656F-2210-3511-F58298DD311E">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:41:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha del Registro]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaActualiza" id="67D5E046-918A-9667-D580-8ED3E29B9404">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:42:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de la Actualización del Requisito]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D20889E7-D225-6732-ADE5-0EE3EBCDD17F" name="COT_PLANTILLA_REQUISITOS_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:40:02 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DAC714B-ED1F-ED41-2A0D-5FD2EEB160B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF2D8B2-28E1-96A4-932E-385FCA81E671" name="COT_PLANTILLA_REQUISITOS_COT_PLANTILLA_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:43:56 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5991B79F-57FB-F458-ECBC-523275784C66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

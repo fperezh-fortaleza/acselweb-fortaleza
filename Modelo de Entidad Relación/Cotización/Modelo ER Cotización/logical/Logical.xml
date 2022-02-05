@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4950D92B-E281-2C21-42D1-2DAE463CB9C1" mainViewID="589D011E-AC1E-A5D5-F0A2-65C9C8DB26A8">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:22:33 UTC</createdTime>
+<ownerDesignName>Modulo de Cotizaciones</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="796947C8-58C7-70A8-F6E8-8B547FC9D281" containerWithKeyObject="23BECA77-FE66-E301-AD32-C275ED5A1776" localFKIndex="30419AA9-16FE-CEAF-03E6-69DBB409DED3" name="COBERT_PLAN_PROD_RAMO_PLAN_PROD_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:56:55 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<referredTableLongName>RAMO_PLAN_PROD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73AAE98B-AA69-66D6-43B3-502CC6AFA2D9</referredTableID>
+<keyObject>D3ADDE20-E23F-8950-3A91-6D874FF19BCE</keyObject>
+<referredKeyID>D3ADDE20-E23F-8950-3A91-6D874FF19BCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CodProd,CodPlan,RevPlan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

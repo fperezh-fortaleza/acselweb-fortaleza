@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC6E9D0B-ABD8-BE5C-2D8B-38B7BC65AE29" containerWithKeyObject="CDBF9D3D-978A-0C21-6470-C7B8AE9DD950" localFKIndex="4BF2D8B2-28E1-96A4-932E-385FCA81E671" name="COT_PLANTILLA_REQUISITOS_COT_PLANTILLA_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:43:56 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<referredTableLongName>COT_PLANTILLA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>990CE3FF-A90C-2EF8-4DB7-B862FC6D3C04</referredTableID>
+<keyObject>AD72EEEA-A18E-2AE1-AF62-AF11149F3F4C</keyObject>
+<referredKeyID>AD72EEEA-A18E-2AE1-AF62-AF11149F3F4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdCotizaPlantilla</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="147EA586-A357-6835-B0D5-292179CE91A1">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:22:34 UTC</createdTime>
+<ownerDesignName>Modulo de Cotizaciones</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

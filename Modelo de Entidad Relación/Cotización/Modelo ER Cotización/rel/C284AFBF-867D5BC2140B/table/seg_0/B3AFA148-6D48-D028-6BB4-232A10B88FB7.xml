@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3AFA148-6D48-D028-6BB4-232A10B88FB7" name="PLAN_PROD">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:40:16 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodProd" id="EAFAFCF0-3381-D92F-EE29-B072EB09A457">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:40:46 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C21C091E-1C6D-41CE-E6B6-9D6266954EAC" referredColumn="0FC463D0-363C-3D09-7808-B06B929EAB7C"/>
+</associations>
+</Column>
+<Column name="CodPlan" id="049293F5-C082-FA27-B7B3-C65C856FF816">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:41:03 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RevPlan" id="ADC47025-A414-8D86-B06B-5012BF8E7BBE">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:41:16 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40BC48B3-BA17-F698-D6E7-062230ED4DA3" name="PLAN_PROD_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:41:45 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAFAFCF0-3381-D92F-EE29-B072EB09A457"/>
+<colUsage columnID="049293F5-C082-FA27-B7B3-C65C856FF816"/>
+<colUsage columnID="ADC47025-A414-8D86-B06B-5012BF8E7BBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CF7D3D5-732B-EBE8-9B78-5F10C36FC250" name="PLAN_PROD_PRODUCTO_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:43:09 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAFAFCF0-3381-D92F-EE29-B072EB09A457"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

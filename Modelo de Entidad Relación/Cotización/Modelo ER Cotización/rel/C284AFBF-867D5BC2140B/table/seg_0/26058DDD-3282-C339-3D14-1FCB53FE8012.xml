@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26058DDD-3282-C339-3D14-1FCB53FE8012" name="COT_PLANTILLA_ANEXO">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:25:01 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCotPlantiAnexo" id="3F96C9C8-3DEB-A5D4-6FA4-301FFC11250C">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:05:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación Unica del Anexo de la Plantilla.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCotizaPlantilla" id="5B131189-7BFE-CFF0-919A-9B33F5A2C29E">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:16:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación de la Plantilla de Cotización a la cual se le asocia el Anexo.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A03497CE-C864-421D-39A2-563D2DD58E06" referredColumn="E5A0E0AD-61EE-3216-0849-29611ECEAC9A"/>
+</associations>
+</Column>
+<Column name="CodRamo" id="E33F9B4C-3F23-C168-BFAB-2607695ACABD">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:13:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código del Ramo.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodAnexo" id="2ECEA65E-6CD2-2CF5-C4C8-6DF3A10E3345">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:14:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código del Anexo]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IndAnexoOblig" id="5171B813-75A6-6DBE-86C4-FF6D620FA069">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:14:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador de Obligatorio o no del Anexo]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B69E1B6-4C78-E4B8-19D0-23B768F7398E" name="COT_PLANTILLA_ANEXOS_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:05:22 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F96C9C8-3DEB-A5D4-6FA4-301FFC11250C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="524B7A29-F2EE-AAF7-7674-24E99DD17C3B" name="COT_PLANTILLA_ANEXOS_COT_PLANTILLA_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 02:16:52 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B131189-7BFE-CFF0-919A-9B33F5A2C29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

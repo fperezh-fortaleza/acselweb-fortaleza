@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo ER Cotización" id="DDAFDEC5-4D52-6851-BA80-9D39D24C2CD9" version="3.5">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:22:33 UTC</createdTime>
+<ownerDesignName>Modulo de Cotizaciones</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DDAFDEC5-4D52-6851-BA80-9D39D24C2CD9</designId>
+</OSDM_Design>

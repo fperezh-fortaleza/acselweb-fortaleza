@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="04116717-9173-3049-1EB2-295A51820558">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:22:33 UTC</createdTime>
+<ownerDesignName>Modulo de Cotizaciones</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

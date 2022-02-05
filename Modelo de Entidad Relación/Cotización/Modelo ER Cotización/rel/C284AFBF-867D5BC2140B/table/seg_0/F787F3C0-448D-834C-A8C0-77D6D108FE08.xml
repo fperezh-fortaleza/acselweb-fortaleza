@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F787F3C0-448D-834C-A8C0-77D6D108FE08" name="COTIZA_CLAUSULA">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:35:17 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCotiza" id="DC7A061B-7097-FF59-3D1C-A6122C8E1B57">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:36:19 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A284B173-FDBA-ABD1-AF18-F7B0242C1D6E" referredColumn="DBA462F0-FFC4-D71E-4527-15D3C30A5DF1"/>
+</associations>
+</Column>
+<Column name="CodClausula" id="74B63482-FA1A-B70D-7608-5ED555DF1705">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-30 01:58:33 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodRamo" id="A025F03D-D592-3E90-1741-34AF46449654">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-30 01:58:13 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IndClausulaOblig" id="C6B5C2C3-F26F-29CA-A692-1C94F28F572B">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-30 01:59:09 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Desde" id="C5D8EC17-8667-0AD2-BCAD-A7CDD35F0D04">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:46:31 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Hasta" id="63ACE25A-4E21-05BE-98A8-054BA2E380F4">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:46:52 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Notas" id="2E27CBE1-609A-F573-0665-CCB5F3DF9A28">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:38:02 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCotizaClausula" id="C2A45C1C-229E-4EF5-DAFD-761440F9EA6E">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:35:49 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00E6AC43-B96F-6865-6A21-844EABCA40BE" name="CLAUSULAS_PLAN_COTIZACION_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-30 01:43:17 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC7A061B-7097-FF59-3D1C-A6122C8E1B57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

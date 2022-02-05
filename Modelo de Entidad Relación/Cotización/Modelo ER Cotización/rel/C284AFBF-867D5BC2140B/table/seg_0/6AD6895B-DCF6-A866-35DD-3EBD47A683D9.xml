@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AD6895B-DCF6-A866-35DD-3EBD47A683D9" name="COTIZACION_REQUISITO">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:27:13 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodProd" id="0C8CE2E8-F0D1-8E2D-78A5-D8BFDB2B883A">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:29:59 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodPlan" id="5463CE3B-2929-84CC-A7DE-6E2F7F6A9460">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:30:23 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodRamo" id="907CD004-8AAA-B4B1-D478-5A01B449C84C">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:30:43 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodReq" id="CC3F9D55-AD7E-B486-0F19-797DDAAD3293">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-30 02:00:22 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IndOblig" id="EFEA18BB-6B46-90CC-79CB-D6C0938CF047">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:31:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador de obligatoriedad o no del Requisito.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaSts" id="D1F89841-00FD-20B6-88D2-F1F947CD3031">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:36:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de Registro del Requisito.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdRequisito" id="8556913D-D910-D0B7-6EFA-0E6FBE05CF9C">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:28:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación Única del Requisito de la Cotización]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StsReq" id="0B7AB47E-5BA3-1660-5089-47B27CA33A5F">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:32:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus del Requisito:
+PEN - Pendiente.
+ENT - Entregado.]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCotizacion" id="7FBF9B11-4E35-FFC7-DE91-ABEDA7C0391C">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:30:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación del Plan de la Cotización a la cual se asocia el Requisito]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87435BCC-D43B-D606-DF35-F53B7A4BA68C" referredColumn="DBA462F0-FFC4-D71E-4527-15D3C30A5DF1"/>
+</associations>
+</Column>
+<Column name="Requisito_Picture" id="C8A543C2-8E92-A3B6-FA7D-FFF21083A3D3">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:32:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Documento del Requisito Digital]]></commentInRDBMS>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MiMeType" id="06C4F5F5-C4F5-3E84-90B3-7B8F382CC0EE">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:33:30 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FileName" id="4A162F2B-5A89-D809-303A-14C840B20975">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:33:56 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="869CF87F-9F3F-3D9C-5972-F02432FC8A1E">
+<createdBy>fperezh</createdBy>
+<createdTime>2022-02-05 12:34:16 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D83A8B6-070E-D74B-FEB6-6486C8EB8BED" name="REQUISITOS_PLAN_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-28 01:28:54 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8556913D-D910-D0B7-6EFA-0E6FBE05CF9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41673453-C995-8DAE-0A6C-2FCBEA64FC05" name="REQUISITOS_PLAN_COTIZACION_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-30 01:43:58 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FBF9B11-4E35-FFC7-DE91-ABEDA7C0391C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73AAE98B-AA69-66D6-43B3-502CC6AFA2D9" name="RAMO_PLAN_PROD">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:50:52 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodProd" id="0334C202-08BF-7B46-B56E-D2C49367276D">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:51:24 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6373FFF7-1A4D-EC3C-BA36-E5DFB53C3F0F" referredColumn="EAFAFCF0-3381-D92F-EE29-B072EB09A457"/>
+</associations>
+</Column>
+<Column name="CodPlan" id="880F75D2-DB50-B89F-9517-C9A107081A6D">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:51:46 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6373FFF7-1A4D-EC3C-BA36-E5DFB53C3F0F" referredColumn="049293F5-C082-FA27-B7B3-C65C856FF816"/>
+</associations>
+</Column>
+<Column name="RevPlan" id="7FB1A5EA-BCFB-2A7F-71A0-4E4B1F67A4DE">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:51:58 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6373FFF7-1A4D-EC3C-BA36-E5DFB53C3F0F" referredColumn="ADC47025-A414-8D86-B06B-5012BF8E7BBE"/>
+</associations>
+</Column>
+<Column name="CodRamo" id="AB6E4DA0-243B-6FF3-7E0E-456C841EBE4C">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:52:13 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3ADDE20-E23F-8950-3A91-6D874FF19BCE" name="RAMO_PLAN_PROD_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:52:31 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0334C202-08BF-7B46-B56E-D2C49367276D"/>
+<colUsage columnID="880F75D2-DB50-B89F-9517-C9A107081A6D"/>
+<colUsage columnID="7FB1A5EA-BCFB-2A7F-71A0-4E4B1F67A4DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76BA6011-7BC6-13DB-4137-C7E8A2068972" name="RAMO_PLAN_PROD_PLAN_PROD_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-08-24 18:53:25 UTC</createdTime>
+<ownerDesignName>Modelo ER Cotización</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0334C202-08BF-7B46-B56E-D2C49367276D"/>
+<colUsage columnID="880F75D2-DB50-B89F-9517-C9A107081A6D"/>
+<colUsage columnID="7FB1A5EA-BCFB-2A7F-71A0-4E4B1F67A4DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
