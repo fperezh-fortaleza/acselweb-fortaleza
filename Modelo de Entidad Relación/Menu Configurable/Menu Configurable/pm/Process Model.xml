@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A0B9CC28-4538-2F8E-B9F3-9EB1E08DA14F">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:10:49 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

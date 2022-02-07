@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F657E83C-3340-3A89-AF61-52A19E317890" mainViewID="EC21970E-CE1A-87BD-ABED-881F87568EC9">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:10:49 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

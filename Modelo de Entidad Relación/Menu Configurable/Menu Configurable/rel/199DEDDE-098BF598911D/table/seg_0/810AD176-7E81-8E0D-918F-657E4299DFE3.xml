@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="810AD176-7E81-8E0D-918F-657E4299DFE3" name="MNUACSEL">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:23:28 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>MNUACSEL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codaplic" id="FA523B4B-D581-C4E9-135D-7214277E4F41">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:24:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de la opción que se va asociar al menu.]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codgrpusr" id="BA9E0061-20DD-21A8-7996-1393135129B1">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:25:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código del Grupo de Usuarios a la cual se le va asociar la opción del Menú.]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel" id="00E9FA6F-C90E-CFA6-1C68-E6AB14104D67">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:25:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nivel de la Opción ]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="secuencia" id="A92D29A0-A981-46D9-43E8-656B6272D0A4">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:26:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de la secuencia de la Opción]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opción" id="E8306724-9399-9497-3F90-DE381DD850AB">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:26:42 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indforma" id="5A888E09-9C33-7F75-7CBF-3DAEA2431819">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:26:55 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indrest" id="D6DBF663-D5FF-8576-2795-26E3C51E4D07">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:27:12 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indviewweb" id="C12CC888-FD63-0974-3C18-26E06F3207F4">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:27:35 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D90579E2-02F1-650A-D0EA-0546C8168C69" name="MNUACSEL_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:35:08 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA523B4B-D581-C4E9-135D-7214277E4F41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

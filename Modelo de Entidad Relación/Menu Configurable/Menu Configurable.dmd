@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Menu Configurable" id="D2A68784-8079-1122-5444-8809D51A7023" version="3.5">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:10:49 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D2A68784-8079-1122-5444-8809D51A7023</designId>
+</OSDM_Design>

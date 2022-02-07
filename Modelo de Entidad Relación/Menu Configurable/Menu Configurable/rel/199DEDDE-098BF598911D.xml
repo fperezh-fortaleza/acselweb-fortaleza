@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Menu Configurable de Fortaleza" id="199DEDDE-3E77-A3DD-964C-098BF598911D" mainViewID="E3A217AE-5F51-A438-E659-54178E5B6A4B">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:10:51 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

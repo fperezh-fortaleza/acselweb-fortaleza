@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81E31ABE-C812-6E2A-E318-7D3D5FFD129D" name="APLICACION">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:15:20 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>APLICACION</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aplicacion" id="41CB5C46-17A9-280B-50AE-A0BF468BDA47">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:17:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación Unica de la opción o la aplicación del Menu]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codaplic" id="8BCE1048-2C2D-A7D7-6412-852392CC1992">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:17:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de la Aplicación u Opción]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC64D335-57E8-C00E-6A97-1EBF06E2307C" referredColumn="FA523B4B-D581-C4E9-135D-7214277E4F41"/>
+</associations>
+</Column>
+<Column name="desaplic" id="E86B61B5-E167-2644-60E7-2ADB2C5B2860">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:18:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción de la Opción o Aplicación]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indforma" id="F149A675-AB0A-7635-7626-36909FC92487">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:18:55 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indrest" id="DBCEC479-C75A-D701-F3BD-8C0C4BDEB49A">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:19:41 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stsaplic" id="832F7D6A-0796-2241-5090-ED8F21116A9F">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:19:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus de la aplicación u Opción]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plataforma" id="08CD638D-139A-9F8F-D78C-B3B7B54B04B4">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:20:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de la Plataforma: 01 - Acsel - Fortaleza y 02 - Acsel Web]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nropag" id="1E540A09-8873-C49E-754E-C046B2361111">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:21:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de la página asociada a la opción - Acsel Web]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="icono" id="69E7B3D4-8E08-DD1A-2B10-0A1AF504BC04">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:21:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del icono asociado a la opción del Menú configurable de Acsel Web]]></commentInRDBMS>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53E8B2D1-1921-50C9-6368-FC71E1F7F06E" name="APLICACION_PK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:34:57 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BCE1048-2C2D-A7D7-6412-852392CC1992"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F313E1B-4FB3-2AA2-FE86-CC9E1521BB58" name="APLICACION_MNUACSEL_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:35:26 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BCE1048-2C2D-A7D7-6412-852392CC1992"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

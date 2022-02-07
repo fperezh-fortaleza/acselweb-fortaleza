@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88B08913-11DD-D825-ED13-9C8A91085A67" containerWithKeyObject="453573AD-A0FE-70F1-9B4D-3C7EE582941F" localFKIndex="C4EC15DD-83D4-9B70-AE82-44FB75E26655" name="USUARIO_GRUPO_USUARIO_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:49:52 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<referredTableLongName>GRUPO_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A0D45F1-C2B6-D87B-3056-B010124DF415</referredTableID>
+<keyObject>372399B2-865F-900E-6FB5-F694001B4FA6</keyObject>
+<referredKeyID>372399B2-865F-900E-6FB5-F694001B4FA6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codgrpusr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

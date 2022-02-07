@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32FF8B2B-DF7E-BFC2-549C-854CB7A03AC8" containerWithKeyObject="8A0D45F1-C2B6-D87B-3056-B010124DF415" localFKIndex="496AE69D-B55E-016A-3EE2-2303B3D2C126" name="GRUPO_USUARIO_MNUACSEL_FK">
+<createdBy>fperezh</createdBy>
+<createdTime>2021-09-20 13:50:26 UTC</createdTime>
+<ownerDesignName>Menu Configurable</ownerDesignName>
+<referredTableLongName>MNUACSEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>810AD176-7E81-8E0D-918F-657E4299DFE3</referredTableID>
+<keyObject>D90579E2-02F1-650A-D0EA-0546C8168C69</keyObject>
+<referredKeyID>D90579E2-02F1-650A-D0EA-0546C8168C69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codaplic</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
